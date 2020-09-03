@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="61.010921">
+<testcase classname="checking funtionality of search button for  list of homes" name="Testcase for validating list with agent name" time="61.010921">
+<system-out><![CDATA[Given Zoopla application launched...........................................passed
+When verify the homepage using homepage title"Zoopla > Search Property to Buy, Rent, House Prices, Estate Agents".passed
+Then enter the "london" in searchbox and press the enter button.............passed
+And printing price values in decending order................................passed
+Then Click on fifth th property from the list...............................passed
+When click on agentname on the same page....................................passed
+Then Validate agents page with agent pageheader.............................passed
+And check the properties having agent name..................................passed
+]]></system-out>
+</testcase>
+</testsuite>
+ractability=false, platform=ANY, proxy=Proxy(), goog:chromeOptions={debuggerAddress=localhost:59195}, acceptInsecureCerts=false, browserVersion=85.0.4183.83, browserName=chrome, javascriptEnabled=true, platformName=windows, setWindowRect=true, webauthn:virtualAuthenticators=true}]&#10;Session ID: fe7ef3abd0c82dd080b0dd65013fb306&#10;*** Element info: {Using=xpath, value=//ul[@class='listing-results clearfix js-gtm-list']//a[@class='listing-results-price text-price']}&#13;&#10;&#9;at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)&#13;&#10;&#9;at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)&#13;&#10;&#9;at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)&#13;&#10;&#9;at java.lang.reflect.Constructor.newInstance(Unknown Source)&#13;&#10;&#9;at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:150)&#13;&#10;&#9;at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:115)&#13;&#10;&#9;at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:45)&#13;&#10;&#9;at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)&#13;&#10;&#9;at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:637)&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:437)&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.findElementsByXPath(RemoteWebDriver.java:513)&#13;&#10;&#9;at org.openqa.selenium.By$ByXPath.findElements(By.java:356)&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:398)&#13;&#10;&#9;at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElements(DefaultElementLocator.java:85)&#13;&#10;&#9;at org.openqa.selenium.support.pagefactory.internal.LocatingElementListHandler.invoke(LocatingElementListHandler.java:36)&#13;&#10;&#9;at com.sun.proxy.$Proxy20.size(Unknown Source)&#13;&#10;&#9;at com.org.pages.Homepage.sortingthehouseepricelist(Homepage.java:55)&#13;&#10;&#9;at com.org.stepdefinition.Stepdefinition.printing_price_values_in_decending_order(Stepdefinition.java:43)&#13;&#10;&#9;at ✽.And printing price values in decending order(zoopla.feature:6)&#13;&#10;"><![CDATA[Given Zoopla application launched...........................................passed
+When verify the homepage using homepage title"Zoopla > Search Property to Buy, Rent, House Prices, Estate Agents".passed
+Then enter the "london" in searchbox and press the enter button.............passed
+And printing price values in decending order................................failed
+Then Click on fifth th property from the list...............................skipped
+When click on agentname on the same page....................................skipped
+Then Validate agents page with agent pageheader.............................skipped
+And check the properties having agent name..................................skipped
+
+StackTrace:
+org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=85.0.4183.83)
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'SHARMILA', ip: '192.168.1.10', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{networkConnectionEnabled=false, chrome={chromedriverVersion=85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}), userDataDir=C:\Users\sweet\AppData\Local\Temp\scoped_dir49560_1972676665}, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, platform=ANY, proxy=Proxy(), goog:chromeOptions={debuggerAddress=localhost:59195}, acceptInsecureCerts=false, browserVersion=85.0.4183.83, browserName=chrome, javascriptEnabled=true, platformName=windows, setWindowRect=true, webauthn:virtualAuthenticators=true}]
+Session ID: fe7ef3abd0c82dd080b0dd65013fb306
+*** Element info: {Using=xpath, value=//ul[@class='listing-results clearfix js-gtm-list']//a[@class='listing-results-price text-price']}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:150)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:115)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:45)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:637)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:437)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementsByXPath(RemoteWebDriver.java:513)
+	at org.openqa.selenium.By$ByXPath.findElements(By.java:356)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:398)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElements(DefaultElementLocator.java:85)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementListHandler.invoke(LocatingElementListHandler.java:36)
+	at com.sun.proxy.$Proxy20.size(Unknown Source)
+	at com.org.pages.Homepage.sortingthehouseepricelist(Homepage.java:55)
+	at com.org.stepdefinition.Stepdefinition.printing_price_values_in_decending_order(Stepdefinition.java:43)
+	at ✽.And printing price values in decending order(zoopla.feature:6)
+]]></failure>
+</testcase>
+</testsuite>
