@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="4414" started-at="2020-08-29T07:03:43Z" finished-at="2020-08-29T07:03:48Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="4414" started-at="2020-08-29T07:03:43Z" finished-at="2020-08-29T07:03:48Z">
+      <class name="RestAsuured">
+        <test-method status="PASS" signature="configureSystemUnderTest()[pri:0, instance:RestAsuured@14bdbc74]" name="configureSystemUnderTest" is-config="true" duration-ms="1205" started-at="2020-08-29T07:03:43Z" finished-at="2020-08-29T07:03:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configureSystemUnderTest -->
+        <test-method status="PASS" signature="Accessingapi()[pri:0, instance:RestAsuured@14bdbc74]" name="Accessingapi" duration-ms="2585" started-at="2020-08-29T07:03:44Z" finished-at="2020-08-29T07:03:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Accessingapi -->
+        <test-method status="PASS" signature="TestGetEndPoint()[pri:0, instance:RestAsuured@14bdbc74]" name="TestGetEndPoint" duration-ms="591" started-at="2020-08-29T07:03:47Z" finished-at="2020-08-29T07:03:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestGetEndPoint -->
+        <test-method status="PASS" signature="stopWireMockServer()[pri:0, instance:RestAsuured@14bdbc74]" name="stopWireMockServer" is-config="true" duration-ms="10" started-at="2020-08-29T07:03:48Z" finished-at="2020-08-29T07:03:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stopWireMockServer -->
+      </class> <!-- RestAsuured -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
