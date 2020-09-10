@@ -7,7 +7,7 @@ formatter.feature({
   "keyword": "Feature"
 });
 formatter.before({
-  "duration": 74683901,
+  "duration": 97605800,
   "status": "passed"
 });
 formatter.scenario({
@@ -47,21 +47,21 @@ formatter.match({
   "location": "Stepdefinition.i_set_GET_student_service_api()"
 });
 formatter.result({
-  "duration": 348633300,
+  "duration": 486986300,
   "status": "passed"
 });
 formatter.match({
   "location": "Stepdefinition.i_set_request_HEADER()"
 });
 formatter.result({
-  "duration": 151156300,
+  "duration": 172612800,
   "status": "passed"
 });
 formatter.match({
   "location": "Stepdefinition.send_GET_HTTP_request()"
 });
 formatter.result({
-  "duration": 488720400,
+  "duration": 621373300,
   "status": "passed"
 });
 formatter.match({
@@ -74,22 +74,22 @@ formatter.match({
   "location": "Stepdefinition.i_receive_valid_HTTP_Response_code(int)"
 });
 formatter.result({
-  "duration": 26053900,
+  "duration": 32119700,
   "status": "passed"
 });
 formatter.match({
   "location": "Stepdefinition.perform_the_request_based_on_queries()"
 });
 formatter.result({
-  "duration": 393471701,
+  "duration": 576245000,
   "status": "passed"
 });
 formatter.after({
-  "duration": 155949201,
+  "duration": 202080000,
   "status": "passed"
 });
 formatter.before({
-  "duration": 2201800,
+  "duration": 3791800,
   "status": "passed"
 });
 formatter.scenario({
@@ -135,21 +135,21 @@ formatter.match({
   "location": "Stepdefinition.i_set_GET_user_service_api(String)"
 });
 formatter.result({
-  "duration": 963299,
+  "duration": 1858600,
   "status": "passed"
 });
 formatter.match({
   "location": "Stepdefinition.i_set_request_HEADER()"
 });
 formatter.result({
-  "duration": 546101,
+  "duration": 1032700,
   "status": "passed"
 });
 formatter.match({
   "location": "Stepdefinition.send_GET_HTTP_request()"
 });
 formatter.result({
-  "duration": 278378700,
+  "duration": 402168500,
   "status": "passed"
 });
 formatter.match({
@@ -162,7 +162,7 @@ formatter.match({
   "location": "Stepdefinition.i_receive_valid_HTTP_Response_code(int)"
 });
 formatter.result({
-  "duration": 1013400,
+  "duration": 1273300,
   "status": "passed"
 });
 formatter.match({
@@ -175,11 +175,11 @@ formatter.match({
   "location": "Stepdefinition.get_the_titles_if_userid_equalto(int)"
 });
 formatter.result({
-  "duration": 19823901,
+  "duration": 20462100,
   "status": "passed"
 });
 formatter.after({
-  "duration": 30346800,
+  "duration": 27802400,
   "status": "passed"
 });
 });

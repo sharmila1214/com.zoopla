@@ -12,7 +12,7 @@ public class Testbase {
 	public static ExtentReports reports;
 	public static ExtentTest logger;
 	public static   void extentRep() throws IOException {
-		//driver=bm.initialisation();
+		
 		//extent report
 				String filename = new SimpleDateFormat("'redfin_'yyyyMMddHHmmSS'.html'").format(new Date());
 				String path = System.getProperty("user.dir") + ("\\src\\main\\java\\com\\org\\extentreports\\") + filename;
