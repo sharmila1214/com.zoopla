@@ -1,0 +1,220 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 74683901,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Stepdefinition.setup()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "Get student record",
+        "description": "",
+        "id": "test-crud-methods-in-sample-student-rest-api-testing;get-student-record",
+        "after": [
+          {
+            "result": {
+              "duration": 155949201,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Stepdefinition.reports()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 348633300,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I set GET student service api",
+            "match": {
+              "location": "Stepdefinition.i_set_GET_student_service_api()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 151156300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I set request HEADER",
+            "match": {
+              "location": "Stepdefinition.i_set_request_HEADER()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 488720400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Send GET HTTP request",
+            "match": {
+              "location": "Stepdefinition.send_GET_HTTP_request()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 26053900,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I receive valid HTTP Response code 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 35
+                }
+              ],
+              "location": "Stepdefinition.i_receive_valid_HTTP_Response_code(int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 393471701,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "perform the request based on queries",
+            "match": {
+              "location": "Stepdefinition.perform_the_request_based_on_queries()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2201800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Stepdefinition.setup()"
+            }
+          }
+        ],
+        "line": 11,
+        "name": "Get student record",
+        "description": "",
+        "id": "test-crud-methods-in-sample-student-rest-api-testing;get-student-record",
+        "after": [
+          {
+            "result": {
+              "duration": 30346800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Stepdefinition.reports()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 963299,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I set GET user service api  \"https://jsonplaceholder.typicode.com/posts\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://jsonplaceholder.typicode.com/posts",
+                  "offset": 29
+                }
+              ],
+              "location": "Stepdefinition.i_set_GET_user_service_api(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 546101,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I set request HEADER",
+            "match": {
+              "location": "Stepdefinition.i_set_request_HEADER()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 278378700,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "Send GET HTTP request",
+            "match": {
+              "location": "Stepdefinition.send_GET_HTTP_request()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1013400,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I receive valid HTTP Response code 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 35
+                }
+              ],
+              "location": "Stepdefinition.i_receive_valid_HTTP_Response_code(int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 19823901,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "get the titles if userid equalto 7",
+            "match": {
+              "arguments": [
+                {
+                  "val": "7",
+                  "offset": 33
+                }
+              ],
+              "location": "Stepdefinition.get_the_titles_if_userid_equalto(int)"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Test CRUD methods in sample student REST API Testing",
+    "description": "",
+    "id": "test-crud-methods-in-sample-student-rest-api-testing",
+    "keyword": "Feature",
+    "uri": "rest.feature"
+  }
+]
