@@ -1,0 +1,195 @@
+{  
+
+ "Car":[{
+          "make":"Audi",
+          "model":"A7",
+          "vin": "09AGHY64352JITEG98K",
+         "metadata" : {
+                "Color" : "Black",
+                 "Notes" : "Scratches on the front side of the car"
+         }, 
+          "perdayrent" : {
+            "Price" : 140,
+         "Discount" : 15
+         },
+     "metrics" : {
+         "yoymaintenancecost" : 2190.76,
+         "depreciation": 2256.43,
+         "rentalcount" : {
+             "lastweek" : 4,
+             "yeartodate" : 221
+             }
+         }
+    },
+    
+     {
+          "make":"Tesla",
+          "model":"A6",
+          "vin": "09AGHY64352JITEG98A",
+         "metadata" : {
+                "Color" : "Blue",
+                 "Notes" : "oil changes required"
+         }, 
+          "perdayrent" : {
+            "Price" : 150,
+         "Discount" : 15
+         },
+     "metrics" : {
+         "yoymaintenancecost" : 3190.76,
+         "depreciation": 2156.43,
+         "rentalcount" : {
+             "lastweek" : 4,
+             "yeartodate" : 221
+             }
+         }
+    },
+    
+    {
+          "make":"Honda",
+          "model":"A11",
+          "vin": "09AGHY64352JITEG98R",
+         "metadata" : {
+                "Color" : "Brown",
+                 "Notes" : "Parts to replaced"
+         }, 
+          "perdayrent" : {
+            "Price" : 170,
+         "Discount" : 15
+         },
+     "metrics" : {
+         "yoymaintenancecost" : 3390.76,
+         "depreciation": 2756.43,
+         "rentalcount" : {
+             "lastweek" : 4,
+             "yeartodate" : 226
+             }
+         }
+    },
+    {
+          "make":"Audi",
+          "model":"A2",
+          "vin": "09AGHY64352JITEG98Y",
+         "metadata" : {
+                "Color" : "Red",
+                 "Notes" : "service required"
+         }, 
+          "perdayrent" : {
+            "Price" : 150,
+         "Discount" : 15
+         },
+     "metrics" : {
+         "yoymaintenancecost" : 3190.76,
+         "depreciation": 2056.43,
+         "rentalcount" : {
+             "lastweek" : 4,
+             "yeartodate" : 278
+             }
+         }
+    },
+    {
+          "make":"Tesla",
+          "model":"B4",
+          "vin": "09AGHY64352JITEG98K",
+         "metadata" : {
+                "Color" : "Blue",
+                 "Notes" : "Oil changes required"
+         }, 
+          "perdayrent" : {
+            "Price" : 120,
+         "Discount" : 15
+         },
+     "metrics" : {
+         "yoymaintenancecost" : 2900.76,
+         "depreciation": 2656.43,
+         "rentalcount" : {
+             "lastweek" : 4,
+             "yeartodate" : 218
+             }
+         }
+    },
+    {
+          "make":"Honda",
+          "model":"A22",
+          "vin": "09AGHY64352JITEG98T",
+         "metadata" : {
+                "Color" : "Green",
+                 "Notes" : "Break replacement"
+         }, 
+          "perdayrent" : {
+            "Price" : 120,
+         "Discount" : 15
+         },
+     "metrics" : {
+         "yoymaintenancecost" : 2800.00,
+         "depreciation": 2678.43,
+         "rentalcount" : {
+             "lastweek" : 4,
+             "yeartodate" : 254
+             }
+         }
+    },
+    {
+          "make":"Tesla",
+          "model":"A32",
+          "vin": "09AGHY64352JITEG98D",
+         "metadata" : {
+                "Color" : "Metallic Blue",
+                 "Notes" : "Front Mirror not working"
+         }, 
+          "perdayrent" : {
+            "Price" : 155,
+         "Discount" : 15
+         },
+     "metrics" : {
+         "yoymaintenancecost" : 3290.76,
+         "depreciation": 1256.43,
+         "rentalcount" : {
+             "lastweek" : 4,
+             "yeartodate" : 321
+             }
+         }
+    },
+    {
+          "make":"Hyundai",
+          "model":"S2",
+          "vin": "09AGHY64352JITEG98O",
+         "metadata" : {
+                "Color" : "Grey",
+                 "Notes" : "Car wheels replacement"
+         }, 
+          "perdayrent" : {
+            "Price" : 110,
+         "Discount" : 15
+         },
+     "metrics" : {
+         "yoymaintenancecost" : 2190.76,
+         "depreciation": 2556.43,
+         "rentalcount" : {
+             "lastweek" : 4,
+             "yeartodate" : 276
+             }
+         }
+    },
+    {
+          "make":"Tesla",
+          "model":"A2",
+          "vin": "09AGHY64352JITEG98H",
+         "metadata" : {
+                "Color" : "Royal Blue",
+                 "Notes" : "Scratches on the Seats"
+         }, 
+          "perdayrent" : {
+            "Price" : 130,
+         "Discount" : 15
+         },
+     "metrics" : {
+         "yoymaintenancecost" : 2690.76,
+         "depreciation": 2786.43,
+         "rentalcount" : {
+             "lastweek" : 4,
+             "yeartodate" : 289
+             }
+         }
+    }]
+    }
+         

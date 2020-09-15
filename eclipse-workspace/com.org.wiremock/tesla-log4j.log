@@ -1,0 +1,4294 @@
+2020-08-13 01:54:12 INFO  RentalCarsTest 35 - Get the response body after parsing as string:{  
+
+ "Car":[{
+          "make":"Audi",
+          "model":"A7",
+          "vin": "09AGHY64352JITEG98K",
+         "metadata" : {
+                "Color" : "Black",
+                 "Notes" : "Scratches on the front side of the car"
+         }, 
+          "perdayrent" : {
+            "Price" : 140,
+         "Discount" : 15
+         },
+     "metrics" : {
+         "yoymaintenancecost" : 2190.76,
+         "depreciation": 2256.43,
+         "rentalcount" : {
+             "lastweek" : 4,
+             "yeartodate" : 221
+             }
+         }
+    },
+    
+     {
+          "make":"Tesla",
+          "model":"A6",
+          "vin": "09AGHY64352JITEG98A",
+         "metadata" : {
+                "Color" : "Blue",
+                 "Notes" : "oil changes required"
+         }, 
+          "perdayrent" : {
+            "Price" : 150,
+         "Discount" : 15
+         },
+     "metrics" : {
+         "yoymaintenancecost" : 3190.76,
+         "depreciation": 2156.43,
+         "rentalcount" : {
+             "lastweek" : 4,
+             "yeartodate" : 221
+             }
+         }
+    },
+    
+    {
+          "make":"Honda",
+          "model":"A11",
+          "vin": "09AGHY64352JITEG98R",
+         "metadata" : {
+                "Color" : "Brown",
+                 "Notes" : "Parts to replaced"
+         }, 
+          "perdayrent" : {
+            "Price" : 170,
+         "Discount" : 15
+         },
+     "metrics" : {
+         "yoymaintenancecost" : 3390.76,
+         "depreciation": 2756.43,
+         "rentalcount" : {
+             "lastweek" : 4,
+             "yeartodate" : 226
+             }
+         }
+    },
+    {
+          "make":"Audi",
+          "model":"A2",
+          "vin": "09AGHY64352JITEG98Y",
+         "metadata" : {
+                "Color" : "Red",
+                 "Notes" : "service required"
+         }, 
+          "perdayrent" : {
+            "Price" : 150,
+         "Discount" : 15
+         },
+     "metrics" : {
+         "yoymaintenancecost" : 3190.76,
+         "depreciation": 2056.43,
+         "rentalcount" : {
+             "lastweek" : 4,
+             "yeartodate" : 278
+             }
+         }
+    },
+    {
+          "make":"Tesla",
+          "model":"B4",
+          "vin": "09AGHY64352JITEG98K",
+         "metadata" : {
+                "Color" : "Royal Blue",
+                 "Notes" : "Scratches on the doors"
+         }, 
+          "perdayrent" : {
+            "Price" : 120,
+         "Discount" : 15
+         },
+     "metrics" : {
+         "yoymaintenancecost" : 2900.76,
+         "depreciation": 2656.43,
+         "rentalcount" : {
+             "lastweek" : 4,
+             "yeartodate" : 218
+             }
+         }
+    },
+    {
+          "make":"Honda",
+          "model":"A22",
+          "vin": "09AGHY64352JITEG98T",
+         "metadata" : {
+                "Color" : "Green",
+                 "Notes" : "Break replacement"
+         }, 
+          "perdayrent" : {
+            "Price" : 120,
+         "Discount" : 15
+         },
+     "metrics" : {
+         "yoymaintenancecost" : 2800.00,
+         "depreciation": 2678.43,
+         "rentalcount" : {
+             "lastweek" : 4,
+             "yeartodate" : 254
+             }
+         }
+    },
+    {
+          "make":"Tesla",
+          "model":"A32",
+          "vin": "09AGHY64352JITEG98D",
+         "metadata" : {
+                "Color" : "Metallic Blue",
+                 "Notes" : "Front Mirror not working"
+         }, 
+          "perdayrent" : {
+            "Price" : 155,
+         "Discount" : 15
+         },
+     "metrics" : {
+         "yoymaintenancecost" : 3290.76,
+         "depreciation": 1256.43,
+         "rentalcount" : {
+             "lastweek" : 4,
+             "yeartodate" : 321
+             }
+         }
+    },
+    {
+          "make":"Hyundai",
+          "model":"S2",
+          "vin": "09AGHY64352JITEG98O",
+         "metadata" : {
+                "Color" : "Grey",
+                 "Notes" : "Car wheels replacement"
+         }, 
+          "perdayrent" : {
+            "Price" : 110,
+         "Discount" : 15
+         },
+     "metrics" : {
+         "yoymaintenancecost" : 2190.76,
+         "depreciation": 2556.43,
+         "rentalcount" : {
+             "lastweek" : 4,
+             "yeartodate" : 276
+             }
+         }
+    },
+    {
+          "make":"Tesla",
+          "model":"A2",
+          "vin": "09AGHY64352JITEG98H",
+         "metadata" : {
+                "Color" : "Royal Blue",
+                 "Notes" : "Scratches on the Seats"
+         }, 
+          "perdayrent" : {
+            "Price" : 130,
+         "Discount" : 15
+         },
+     "metrics" : {
+         "yoymaintenancecost" : 2690.76,
+         "depreciation": 2786.43,
+         "rentalcount" : {
+             "lastweek" : 4,
+             "yeartodate" : 289
+             }
+         }
+    }]
+    }
+         
+2020-08-13 01:54:12 INFO  RentalCarsTest 37 - get the status code of response200
+2020-08-13 01:54:12 INFO  RentalCarsTest 40 - Get the response body:{  
+
+ "Car":[{
+          "make":"Audi",
+          "model":"A7",
+          "vin": "09AGHY64352JITEG98K",
+         "metadata" : {
+                "Color" : "Black",
+                 "Notes" : "Scratches on the front side of the car"
+         }, 
+          "perdayrent" : {
+            "Price" : 140,
+         "Discount" : 15
+         },
+     "metrics" : {
+         "yoymaintenancecost" : 2190.76,
+         "depreciation": 2256.43,
+         "rentalcount" : {
+             "lastweek" : 4,
+             "yeartodate" : 221
+             }
+         }
+    },
+    
+     {
+          "make":"Tesla",
+          "model":"A6",
+          "vin": "09AGHY64352JITEG98A",
+         "metadata" : {
+                "Color" : "Blue",
+                 "Notes" : "oil changes required"
+         }, 
+          "perdayrent" : {
+            "Price" : 150,
+         "Discount" : 15
+         },
+     "metrics" : {
+         "yoymaintenancecost" : 3190.76,
+         "depreciation": 2156.43,
+         "rentalcount" : {
+             "lastweek" : 4,
+             "yeartodate" : 221
+             }
+         }
+    },
+    
+    {
+          "make":"Honda",
+          "model":"A11",
+          "vin": "09AGHY64352JITEG98R",
+         "metadata" : {
+                "Color" : "Brown",
+                 "Notes" : "Parts to replaced"
+         }, 
+          "perdayrent" : {
+            "Price" : 170,
+         "Discount" : 15
+         },
+     "metrics" : {
+         "yoymaintenancecost" : 3390.76,
+         "depreciation": 2756.43,
+         "rentalcount" : {
+             "lastweek" : 4,
+             "yeartodate" : 226
+             }
+         }
+    },
+    {
+          "make":"Audi",
+          "model":"A2",
+          "vin": "09AGHY64352JITEG98Y",
+         "metadata" : {
+                "Color" : "Red",
+                 "Notes" : "service required"
+         }, 
+          "perdayrent" : {
+            "Price" : 150,
+         "Discount" : 15
+         },
+     "metrics" : {
+         "yoymaintenancecost" : 3190.76,
+         "depreciation": 2056.43,
+         "rentalcount" : {
+             "lastweek" : 4,
+             "yeartodate" : 278
+             }
+         }
+    },
+    {
+          "make":"Tesla",
+          "model":"B4",
+          "vin": "09AGHY64352JITEG98K",
+         "metadata" : {
+                "Color" : "Royal Blue",
+                 "Notes" : "Scratches on the doors"
+         }, 
+          "perdayrent" : {
+            "Price" : 120,
+         "Discount" : 15
+         },
+     "metrics" : {
+         "yoymaintenancecost" : 2900.76,
+         "depreciation": 2656.43,
+         "rentalcount" : {
+             "lastweek" : 4,
+             "yeartodate" : 218
+             }
+         }
+    },
+    {
+          "make":"Honda",
+          "model":"A22",
+          "vin": "09AGHY64352JITEG98T",
+         "metadata" : {
+                "Color" : "Green",
+                 "Notes" : "Break replacement"
+         }, 
+          "perdayrent" : {
+            "Price" : 120,
+         "Discount" : 15
+         },
+     "metrics" : {
+         "yoymaintenancecost" : 2800.00,
+         "depreciation": 2678.43,
+         "rentalcount" : {
+             "lastweek" : 4,
+             "yeartodate" : 254
+             }
+         }
+    },
+    {
+          "make":"Tesla",
+          "model":"A32",
+          "vin": "09AGHY64352JITEG98D",
+         "metadata" : {
+                "Color" : "Metallic Blue",
+                 "Notes" : "Front Mirror not working"
+         }, 
+          "perdayrent" : {
+            "Price" : 155,
+         "Discount" : 15
+         },
+     "metrics" : {
+         "yoymaintenancecost" : 3290.76,
+         "depreciation": 1256.43,
+         "rentalcount" : {
+             "lastweek" : 4,
+             "yeartodate" : 321
+             }
+         }
+    },
+    {
+          "make":"Hyundai",
+          "model":"S2",
+          "vin": "09AGHY64352JITEG98O",
+         "metadata" : {
+                "Color" : "Grey",
+                 "Notes" : "Car wheels replacement"
+         }, 
+          "perdayrent" : {
+            "Price" : 110,
+         "Discount" : 15
+         },
+     "metrics" : {
+         "yoymaintenancecost" : 2190.76,
+         "depreciation": 2556.43,
+         "rentalcount" : {
+             "lastweek" : 4,
+             "yeartodate" : 276
+             }
+         }
+    },
+    {
+          "make":"Tesla",
+          "model":"A2",
+          "vin": "09AGHY64352JITEG98H",
+         "metadata" : {
+                "Color" : "Royal Blue",
+                 "Notes" : "Scratches on the Seats"
+         }, 
+          "perdayrent" : {
+            "Price" : 130,
+         "Discount" : 15
+         },
+     "metrics" : {
+         "yoymaintenancecost" : 2690.76,
+         "depreciation": 2786.43,
+         "rentalcount" : {
+             "lastweek" : 4,
+             "yeartodate" : 289
+             }
+         }
+    }]
+    }
+         
+2020-08-13 01:54:12 INFO  RentalCarsTest 58 - Get the status code of response:200
+2020-08-13 01:54:12 INFO  RentalCarsTest 62 - Returns the list of all cars:[Audi, Tesla, Honda, Audi, Tesla, Honda, Tesla, Hyundai, Tesla]
+2020-08-13 01:54:12 INFO  RentalCarsTest 130 - Get the status code of response:200
+2020-08-13 01:54:12 INFO  RentalCarsTest 134 - print perdayrental cost of all cars :[{Discount=15, Price=140}, {Discount=15, Price=150}, {Discount=15, Price=170}, {Discount=15, Price=150}, {Discount=15, Price=120}, {Discount=15, Price=120}, {Discount=15, Price=155}, {Discount=15, Price=110}, {Discount=15, Price=130}]
+2020-08-13 01:54:13 INFO  RentalCarsTest 150 - Returns all cars starting from lowest perdayrent with price only:
+2020-08-13 01:54:13 INFO  RentalCarsTest 157 - Vin : 09AGHY64352JITEG98O----------------> Price :110.0
+2020-08-13 01:54:13 INFO  RentalCarsTest 157 - Vin : 09AGHY64352JITEG98K----------------> Price :120.0
+2020-08-13 01:54:13 INFO  RentalCarsTest 157 - Vin : 09AGHY64352JITEG98T----------------> Price :120.0
+2020-08-13 01:54:13 INFO  RentalCarsTest 157 - Vin : 09AGHY64352JITEG98H----------------> Price :130.0
+2020-08-13 01:54:13 INFO  RentalCarsTest 157 - Vin : 09AGHY64352JITEG98K----------------> Price :140.0
+2020-08-13 01:54:13 INFO  RentalCarsTest 157 - Vin : 09AGHY64352JITEG98A----------------> Price :150.0
+2020-08-13 01:54:13 INFO  RentalCarsTest 157 - Vin : 09AGHY64352JITEG98Y----------------> Price :150.0
+2020-08-13 01:54:13 INFO  RentalCarsTest 157 - Vin : 09AGHY64352JITEG98D----------------> Price :155.0
+2020-08-13 01:54:13 INFO  RentalCarsTest 157 - Vin : 09AGHY64352JITEG98R----------------> Price :170.0
+2020-08-13 01:54:13 INFO  RentalCarsTest 162 - Returns all cars starting from lowest paydayrent with price after discount :
+2020-08-13 01:54:13 INFO  RentalCarsTest 171 - Vin: 09AGHY64352JITEG98O-------------------> PriceAfterDiscount: 93.5
+2020-08-13 01:54:13 INFO  RentalCarsTest 171 - Vin: 09AGHY64352JITEG98K-------------------> PriceAfterDiscount: 102.0
+2020-08-13 01:54:13 INFO  RentalCarsTest 171 - Vin: 09AGHY64352JITEG98T-------------------> PriceAfterDiscount: 102.0
+2020-08-13 01:54:13 INFO  RentalCarsTest 171 - Vin: 09AGHY64352JITEG98H-------------------> PriceAfterDiscount: 110.5
+2020-08-13 01:54:13 INFO  RentalCarsTest 171 - Vin: 09AGHY64352JITEG98K-------------------> PriceAfterDiscount: 119.0
+2020-08-13 01:54:13 INFO  RentalCarsTest 171 - Vin: 09AGHY64352JITEG98A-------------------> PriceAfterDiscount: 127.5
+2020-08-13 01:54:13 INFO  RentalCarsTest 171 - Vin: 09AGHY64352JITEG98Y-------------------> PriceAfterDiscount: 127.5
+2020-08-13 01:54:13 INFO  RentalCarsTest 171 - Vin: 09AGHY64352JITEG98D-------------------> PriceAfterDiscount: 131.75
+2020-08-13 01:54:13 INFO  RentalCarsTest 171 - Vin: 09AGHY64352JITEG98R-------------------> PriceAfterDiscount: 144.5
+2020-08-13 01:54:13 INFO  RentalCarsTest 190 - Get the status code of response:200
+2020-08-13 01:54:13 INFO  RentalCarsTest 198 - Returns each car with year to year maintainacecost plus depreciation:[{yoymaintenancecost=2190.76, rentalcount={lastweek=4, yeartodate=221}, depreciation=2256.43}, {yoymaintenancecost=3190.76, rentalcount={lastweek=4, yeartodate=221}, depreciation=2156.43}, {yoymaintenancecost=3390.76, rentalcount={lastweek=4, yeartodate=226}, depreciation=2756.43}, {yoymaintenancecost=3190.76, rentalcount={lastweek=4, yeartodate=278}, depreciation=2056.43}, {yoymaintenancecost=2900.76, rentalcount={lastweek=4, yeartodate=218}, depreciation=2656.43}, {yoymaintenancecost=2800.0, rentalcount={lastweek=4, yeartodate=254}, depreciation=2678.43}, {yoymaintenancecost=3290.76, rentalcount={lastweek=4, yeartodate=321}, depreciation=1256.43}, {yoymaintenancecost=2190.76, rentalcount={lastweek=4, yeartodate=276}, depreciation=2556.43}, {yoymaintenancecost=2690.76, rentalcount={lastweek=4, yeartodate=289}, depreciation=2786.43}]
+2020-08-13 01:54:13 INFO  RentalCarsTest 220 - Highest Revenue
+2020-08-13 01:54:13 INFO  RentalCarsTest 226 - Vin: 09AGHY64352JITEG98D--------------------->CarREvenue:  37744.56
+2020-08-13 01:54:13 INFO  RentalCarsTest 226 - Vin: 09AGHY64352JITEG98Y--------------------->CarREvenue:  30197.81
+2020-08-13 01:54:13 INFO  RentalCarsTest 226 - Vin: 09AGHY64352JITEG98R--------------------->CarREvenue:  26509.81
+2020-08-13 01:54:13 INFO  RentalCarsTest 226 - Vin: 09AGHY64352JITEG98H--------------------->CarREvenue:  26457.31
+2020-08-13 01:54:13 INFO  RentalCarsTest 226 - Vin: 09AGHY64352JITEG98A--------------------->CarREvenue:  22830.31
+2020-08-13 01:54:13 INFO  RentalCarsTest 226 - Vin: 09AGHY64352JITEG98K--------------------->CarREvenue:  21851.81
+2020-08-13 01:54:13 INFO  RentalCarsTest 226 - Vin: 09AGHY64352JITEG98O--------------------->CarREvenue:  21058.81
+2020-08-13 01:54:13 INFO  RentalCarsTest 226 - Vin: 09AGHY64352JITEG98T--------------------->CarREvenue:  20429.57
+2020-08-13 01:54:13 INFO  RentalCarsTest 226 - Vin: 09AGHY64352JITEG98K--------------------->CarREvenue:  16678.81
+2020-08-13 02:04:03 INFO  RentalCarsTest 35 - Get the response body after parsing as string:{  
+
+ "Car":[{
+          "make":"Audi",
+          "model":"A7",
+          "vin": "09AGHY64352JITEG98K",
+         "metadata" : {
+                "Color" : "Black",
+                 "Notes" : "Scratches on the front side of the car"
+         }, 
+          "perdayrent" : {
+            "Price" : 140,
+         "Discount" : 15
+         },
+     "metrics" : {
+         "yoymaintenancecost" : 2190.76,
+         "depreciation": 2256.43,
+         "rentalcount" : {
+             "lastweek" : 4,
+             "yeartodate" : 221
+             }
+         }
+    },
+    
+     {
+          "make":"Tesla",
+          "model":"A6",
+          "vin": "09AGHY64352JITEG98A",
+         "metadata" : {
+                "Color" : "Blue",
+                 "Notes" : "oil changes required"
+         }, 
+          "perdayrent" : {
+            "Price" : 150,
+         "Discount" : 15
+         },
+     "metrics" : {
+         "yoymaintenancecost" : 3190.76,
+         "depreciation": 2156.43,
+         "rentalcount" : {
+             "lastweek" : 4,
+             "yeartodate" : 221
+             }
+         }
+    },
+    
+    {
+          "make":"Honda",
+          "model":"A11",
+          "vin": "09AGHY64352JITEG98R",
+         "metadata" : {
+                "Color" : "Brown",
+                 "Notes" : "Parts to replaced"
+         }, 
+          "perdayrent" : {
+            "Price" : 170,
+         "Discount" : 15
+         },
+     "metrics" : {
+         "yoymaintenancecost" : 3390.76,
+         "depreciation": 2756.43,
+         "rentalcount" : {
+             "lastweek" : 4,
+             "yeartodate" : 226
+             }
+         }
+    },
+    {
+          "make":"Audi",
+          "model":"A2",
+          "vin": "09AGHY64352JITEG98Y",
+         "metadata" : {
+                "Color" : "Red",
+                 "Notes" : "service required"
+         }, 
+          "perdayrent" : {
+            "Price" : 150,
+         "Discount" : 15
+         },
+     "metrics" : {
+         "yoymaintenancecost" : 3190.76,
+         "depreciation": 2056.43,
+         "rentalcount" : {
+             "lastweek" : 4,
+             "yeartodate" : 278
+             }
+         }
+    },
+    {
+          "make":"Tesla",
+          "model":"B4",
+          "vin": "09AGHY64352JITEG98K",
+         "metadata" : {
+                "Color" : "Royal Blue",
+                 "Notes" : "Scratches on the doors"
+         }, 
+          "perdayrent" : {
+            "Price" : 120,
+         "Discount" : 15
+         },
+     "metrics" : {
+         "yoymaintenancecost" : 2900.76,
+         "depreciation": 2656.43,
+         "rentalcount" : {
+             "lastweek" : 4,
+             "yeartodate" : 218
+             }
+         }
+    },
+    {
+          "make":"Honda",
+          "model":"A22",
+          "vin": "09AGHY64352JITEG98T",
+         "metadata" : {
+                "Color" : "Green",
+                 "Notes" : "Break replacement"
+         }, 
+          "perdayrent" : {
+            "Price" : 120,
+         "Discount" : 15
+         },
+     "metrics" : {
+         "yoymaintenancecost" : 2800.00,
+         "depreciation": 2678.43,
+         "rentalcount" : {
+             "lastweek" : 4,
+             "yeartodate" : 254
+             }
+         }
+    },
+    {
+          "make":"Tesla",
+          "model":"A32",
+          "vin": "09AGHY64352JITEG98D",
+         "metadata" : {
+                "Color" : "Metallic Blue",
+                 "Notes" : "Front Mirror not working"
+         }, 
+          "perdayrent" : {
+            "Price" : 155,
+         "Discount" : 15
+         },
+     "metrics" : {
+         "yoymaintenancecost" : 3290.76,
+         "depreciation": 1256.43,
+         "rentalcount" : {
+             "lastweek" : 4,
+             "yeartodate" : 321
+             }
+         }
+    },
+    {
+          "make":"Hyundai",
+          "model":"S2",
+          "vin": "09AGHY64352JITEG98O",
+         "metadata" : {
+                "Color" : "Grey",
+                 "Notes" : "Car wheels replacement"
+         }, 
+          "perdayrent" : {
+            "Price" : 110,
+         "Discount" : 15
+         },
+     "metrics" : {
+         "yoymaintenancecost" : 2190.76,
+         "depreciation": 2556.43,
+         "rentalcount" : {
+             "lastweek" : 4,
+             "yeartodate" : 276
+             }
+         }
+    },
+    {
+          "make":"Tesla",
+          "model":"A2",
+          "vin": "09AGHY64352JITEG98H",
+         "metadata" : {
+                "Color" : "Royal Blue",
+                 "Notes" : "Scratches on the Seats"
+         }, 
+          "perdayrent" : {
+            "Price" : 130,
+         "Discount" : 15
+         },
+     "metrics" : {
+         "yoymaintenancecost" : 2690.76,
+         "depreciation": 2786.43,
+         "rentalcount" : {
+             "lastweek" : 4,
+             "yeartodate" : 289
+             }
+         }
+    }]
+    }
+         
+2020-08-13 02:04:03 INFO  RentalCarsTest 37 - get the status code of response200
+2020-08-13 02:04:03 INFO  RentalCarsTest 40 - Get the response body:{  
+
+ "Car":[{
+          "make":"Audi",
+          "model":"A7",
+          "vin": "09AGHY64352JITEG98K",
+         "metadata" : {
+                "Color" : "Black",
+                 "Notes" : "Scratches on the front side of the car"
+         }, 
+          "perdayrent" : {
+            "Price" : 140,
+         "Discount" : 15
+         },
+     "metrics" : {
+         "yoymaintenancecost" : 2190.76,
+         "depreciation": 2256.43,
+         "rentalcount" : {
+             "lastweek" : 4,
+             "yeartodate" : 221
+             }
+         }
+    },
+    
+     {
+          "make":"Tesla",
+          "model":"A6",
+          "vin": "09AGHY64352JITEG98A",
+         "metadata" : {
+                "Color" : "Blue",
+                 "Notes" : "oil changes required"
+         }, 
+          "perdayrent" : {
+            "Price" : 150,
+         "Discount" : 15
+         },
+     "metrics" : {
+         "yoymaintenancecost" : 3190.76,
+         "depreciation": 2156.43,
+         "rentalcount" : {
+             "lastweek" : 4,
+             "yeartodate" : 221
+             }
+         }
+    },
+    
+    {
+          "make":"Honda",
+          "model":"A11",
+          "vin": "09AGHY64352JITEG98R",
+         "metadata" : {
+                "Color" : "Brown",
+                 "Notes" : "Parts to replaced"
+         }, 
+          "perdayrent" : {
+            "Price" : 170,
+         "Discount" : 15
+         },
+     "metrics" : {
+         "yoymaintenancecost" : 3390.76,
+         "depreciation": 2756.43,
+         "rentalcount" : {
+             "lastweek" : 4,
+             "yeartodate" : 226
+             }
+         }
+    },
+    {
+          "make":"Audi",
+          "model":"A2",
+          "vin": "09AGHY64352JITEG98Y",
+         "metadata" : {
+                "Color" : "Red",
+                 "Notes" : "service required"
+         }, 
+          "perdayrent" : {
+            "Price" : 150,
+         "Discount" : 15
+         },
+     "metrics" : {
+         "yoymaintenancecost" : 3190.76,
+         "depreciation": 2056.43,
+         "rentalcount" : {
+             "lastweek" : 4,
+             "yeartodate" : 278
+             }
+         }
+    },
+    {
+          "make":"Tesla",
+          "model":"B4",
+          "vin": "09AGHY64352JITEG98K",
+         "metadata" : {
+                "Color" : "Royal Blue",
+                 "Notes" : "Scratches on the doors"
+         }, 
+          "perdayrent" : {
+            "Price" : 120,
+         "Discount" : 15
+         },
+     "metrics" : {
+         "yoymaintenancecost" : 2900.76,
+         "depreciation": 2656.43,
+         "rentalcount" : {
+             "lastweek" : 4,
+             "yeartodate" : 218
+             }
+         }
+    },
+    {
+          "make":"Honda",
+          "model":"A22",
+          "vin": "09AGHY64352JITEG98T",
+         "metadata" : {
+                "Color" : "Green",
+                 "Notes" : "Break replacement"
+         }, 
+          "perdayrent" : {
+            "Price" : 120,
+         "Discount" : 15
+         },
+     "metrics" : {
+         "yoymaintenancecost" : 2800.00,
+         "depreciation": 2678.43,
+         "rentalcount" : {
+             "lastweek" : 4,
+             "yeartodate" : 254
+             }
+         }
+    },
+    {
+          "make":"Tesla",
+          "model":"A32",
+          "vin": "09AGHY64352JITEG98D",
+         "metadata" : {
+                "Color" : "Metallic Blue",
+                 "Notes" : "Front Mirror not working"
+         }, 
+          "perdayrent" : {
+            "Price" : 155,
+         "Discount" : 15
+         },
+     "metrics" : {
+         "yoymaintenancecost" : 3290.76,
+         "depreciation": 1256.43,
+         "rentalcount" : {
+             "lastweek" : 4,
+             "yeartodate" : 321
+             }
+         }
+    },
+    {
+          "make":"Hyundai",
+          "model":"S2",
+          "vin": "09AGHY64352JITEG98O",
+         "metadata" : {
+                "Color" : "Grey",
+                 "Notes" : "Car wheels replacement"
+         }, 
+          "perdayrent" : {
+            "Price" : 110,
+         "Discount" : 15
+         },
+     "metrics" : {
+         "yoymaintenancecost" : 2190.76,
+         "depreciation": 2556.43,
+         "rentalcount" : {
+             "lastweek" : 4,
+             "yeartodate" : 276
+             }
+         }
+    },
+    {
+          "make":"Tesla",
+          "model":"A2",
+          "vin": "09AGHY64352JITEG98H",
+         "metadata" : {
+                "Color" : "Royal Blue",
+                 "Notes" : "Scratches on the Seats"
+         }, 
+          "perdayrent" : {
+            "Price" : 130,
+         "Discount" : 15
+         },
+     "metrics" : {
+         "yoymaintenancecost" : 2690.76,
+         "depreciation": 2786.43,
+         "rentalcount" : {
+             "lastweek" : 4,
+             "yeartodate" : 289
+             }
+         }
+    }]
+    }
+         
+2020-08-13 02:04:03 INFO  RentalCarsTest 58 - Get the status code of response:200
+2020-08-13 02:04:04 INFO  RentalCarsTest 62 - Returns the list of all cars:[Audi, Tesla, Honda, Audi, Tesla, Honda, Tesla, Hyundai, Tesla]
+2020-08-13 02:04:04 INFO  RentalCarsTest 130 - Get the status code of response:200
+2020-08-13 02:04:04 INFO  RentalCarsTest 134 - print perdayrental cost of all cars :[{Discount=15, Price=140}, {Discount=15, Price=150}, {Discount=15, Price=170}, {Discount=15, Price=150}, {Discount=15, Price=120}, {Discount=15, Price=120}, {Discount=15, Price=155}, {Discount=15, Price=110}, {Discount=15, Price=130}]
+2020-08-13 02:04:04 INFO  RentalCarsTest 150 - Returns all cars starting from lowest perdayrent with price only:
+2020-08-13 02:04:04 INFO  RentalCarsTest 157 - Vin : 09AGHY64352JITEG98O----------------> Price :110.0
+2020-08-13 02:04:04 INFO  RentalCarsTest 157 - Vin : 09AGHY64352JITEG98K----------------> Price :120.0
+2020-08-13 02:04:04 INFO  RentalCarsTest 157 - Vin : 09AGHY64352JITEG98T----------------> Price :120.0
+2020-08-13 02:04:04 INFO  RentalCarsTest 157 - Vin : 09AGHY64352JITEG98H----------------> Price :130.0
+2020-08-13 02:04:04 INFO  RentalCarsTest 157 - Vin : 09AGHY64352JITEG98K----------------> Price :140.0
+2020-08-13 02:04:04 INFO  RentalCarsTest 157 - Vin : 09AGHY64352JITEG98A----------------> Price :150.0
+2020-08-13 02:04:04 INFO  RentalCarsTest 157 - Vin : 09AGHY64352JITEG98Y----------------> Price :150.0
+2020-08-13 02:04:04 INFO  RentalCarsTest 157 - Vin : 09AGHY64352JITEG98D----------------> Price :155.0
+2020-08-13 02:04:04 INFO  RentalCarsTest 157 - Vin : 09AGHY64352JITEG98R----------------> Price :170.0
+2020-08-13 02:04:04 INFO  RentalCarsTest 162 - Returns all cars starting from lowest paydayrent with price after discount :
+2020-08-13 02:04:04 INFO  RentalCarsTest 171 - Vin: 09AGHY64352JITEG98O-------------------> PriceAfterDiscount: 93.5
+2020-08-13 02:04:04 INFO  RentalCarsTest 171 - Vin: 09AGHY64352JITEG98K-------------------> PriceAfterDiscount: 102.0
+2020-08-13 02:04:04 INFO  RentalCarsTest 171 - Vin: 09AGHY64352JITEG98T-------------------> PriceAfterDiscount: 102.0
+2020-08-13 02:04:04 INFO  RentalCarsTest 171 - Vin: 09AGHY64352JITEG98H-------------------> PriceAfterDiscount: 110.5
+2020-08-13 02:04:04 INFO  RentalCarsTest 171 - Vin: 09AGHY64352JITEG98K-------------------> PriceAfterDiscount: 119.0
+2020-08-13 02:04:04 INFO  RentalCarsTest 171 - Vin: 09AGHY64352JITEG98A-------------------> PriceAfterDiscount: 127.5
+2020-08-13 02:04:04 INFO  RentalCarsTest 171 - Vin: 09AGHY64352JITEG98Y-------------------> PriceAfterDiscount: 127.5
+2020-08-13 02:04:04 INFO  RentalCarsTest 171 - Vin: 09AGHY64352JITEG98D-------------------> PriceAfterDiscount: 131.75
+2020-08-13 02:04:04 INFO  RentalCarsTest 171 - Vin: 09AGHY64352JITEG98R-------------------> PriceAfterDiscount: 144.5
+2020-08-13 02:04:04 INFO  RentalCarsTest 190 - Get the status code of response:200
+2020-08-13 02:04:04 INFO  RentalCarsTest 198 - Returns each car with year to year maintainacecost plus depreciation:[{yoymaintenancecost=2190.76, rentalcount={lastweek=4, yeartodate=221}, depreciation=2256.43}, {yoymaintenancecost=3190.76, rentalcount={lastweek=4, yeartodate=221}, depreciation=2156.43}, {yoymaintenancecost=3390.76, rentalcount={lastweek=4, yeartodate=226}, depreciation=2756.43}, {yoymaintenancecost=3190.76, rentalcount={lastweek=4, yeartodate=278}, depreciation=2056.43}, {yoymaintenancecost=2900.76, rentalcount={lastweek=4, yeartodate=218}, depreciation=2656.43}, {yoymaintenancecost=2800.0, rentalcount={lastweek=4, yeartodate=254}, depreciation=2678.43}, {yoymaintenancecost=3290.76, rentalcount={lastweek=4, yeartodate=321}, depreciation=1256.43}, {yoymaintenancecost=2190.76, rentalcount={lastweek=4, yeartodate=276}, depreciation=2556.43}, {yoymaintenancecost=2690.76, rentalcount={lastweek=4, yeartodate=289}, depreciation=2786.43}]
+2020-08-13 02:04:05 INFO  RentalCarsTest 220 - Highest Revenue
+2020-08-13 02:04:05 INFO  RentalCarsTest 226 - Vin: 09AGHY64352JITEG98D--------------------->CarREvenue:  37744.56
+2020-08-13 02:04:05 INFO  RentalCarsTest 226 - Vin: 09AGHY64352JITEG98Y--------------------->CarREvenue:  30197.81
+2020-08-13 02:04:05 INFO  RentalCarsTest 226 - Vin: 09AGHY64352JITEG98R--------------------->CarREvenue:  26509.81
+2020-08-13 02:04:05 INFO  RentalCarsTest 226 - Vin: 09AGHY64352JITEG98H--------------------->CarREvenue:  26457.31
+2020-08-13 02:04:05 INFO  RentalCarsTest 226 - Vin: 09AGHY64352JITEG98A--------------------->CarREvenue:  22830.31
+2020-08-13 02:04:05 INFO  RentalCarsTest 226 - Vin: 09AGHY64352JITEG98K--------------------->CarREvenue:  21851.81
+2020-08-13 02:04:05 INFO  RentalCarsTest 226 - Vin: 09AGHY64352JITEG98O--------------------->CarREvenue:  21058.81
+2020-08-13 02:04:05 INFO  RentalCarsTest 226 - Vin: 09AGHY64352JITEG98T--------------------->CarREvenue:  20429.57
+2020-08-13 02:04:05 INFO  RentalCarsTest 226 - Vin: 09AGHY64352JITEG98K--------------------->CarREvenue:  16678.81
+2020-08-13 02:05:12 INFO  RentalCarsTest 35 - Get the response body after parsing as string:{  
+
+ "Car":[{
+          "make":"Audi",
+          "model":"A7",
+          "vin": "09AGHY64352JITEG98K",
+         "metadata" : {
+                "Color" : "Black",
+                 "Notes" : "Scratches on the front side of the car"
+         }, 
+          "perdayrent" : {
+            "Price" : 140,
+         "Discount" : 15
+         },
+     "metrics" : {
+         "yoymaintenancecost" : 2190.76,
+         "depreciation": 2256.43,
+         "rentalcount" : {
+             "lastweek" : 4,
+             "yeartodate" : 221
+             }
+         }
+    },
+    
+     {
+          "make":"Tesla",
+          "model":"A6",
+          "vin": "09AGHY64352JITEG98A",
+         "metadata" : {
+                "Color" : "Blue",
+                 "Notes" : "oil changes required"
+         }, 
+          "perdayrent" : {
+            "Price" : 150,
+         "Discount" : 15
+         },
+     "metrics" : {
+         "yoymaintenancecost" : 3190.76,
+         "depreciation": 2156.43,
+         "rentalcount" : {
+             "lastweek" : 4,
+             "yeartodate" : 221
+             }
+         }
+    },
+    
+    {
+          "make":"Honda",
+          "model":"A11",
+          "vin": "09AGHY64352JITEG98R",
+         "metadata" : {
+                "Color" : "Brown",
+                 "Notes" : "Parts to replaced"
+         }, 
+          "perdayrent" : {
+            "Price" : 170,
+         "Discount" : 15
+         },
+     "metrics" : {
+         "yoymaintenancecost" : 3390.76,
+         "depreciation": 2756.43,
+         "rentalcount" : {
+             "lastweek" : 4,
+             "yeartodate" : 226
+             }
+         }
+    },
+    {
+          "make":"Audi",
+          "model":"A2",
+          "vin": "09AGHY64352JITEG98Y",
+         "metadata" : {
+                "Color" : "Red",
+                 "Notes" : "service required"
+         }, 
+          "perdayrent" : {
+            "Price" : 150,
+         "Discount" : 15
+         },
+     "metrics" : {
+         "yoymaintenancecost" : 3190.76,
+         "depreciation": 2056.43,
+         "rentalcount" : {
+             "lastweek" : 4,
+             "yeartodate" : 278
+             }
+         }
+    },
+    {
+          "make":"Tesla",
+          "model":"B4",
+          "vin": "09AGHY64352JITEG98K",
+         "metadata" : {
+                "Color" : "Royal Blue",
+                 "Notes" : "Scratches on the doors"
+         }, 
+          "perdayrent" : {
+            "Price" : 120,
+         "Discount" : 15
+         },
+     "metrics" : {
+         "yoymaintenancecost" : 2900.76,
+         "depreciation": 2656.43,
+         "rentalcount" : {
+             "lastweek" : 4,
+             "yeartodate" : 218
+             }
+         }
+    },
+    {
+          "make":"Honda",
+          "model":"A22",
+          "vin": "09AGHY64352JITEG98T",
+         "metadata" : {
+                "Color" : "Green",
+                 "Notes" : "Break replacement"
+         }, 
+          "perdayrent" : {
+            "Price" : 120,
+         "Discount" : 15
+         },
+     "metrics" : {
+         "yoymaintenancecost" : 2800.00,
+         "depreciation": 2678.43,
+         "rentalcount" : {
+             "lastweek" : 4,
+             "yeartodate" : 254
+             }
+         }
+    },
+    {
+          "make":"Tesla",
+          "model":"A32",
+          "vin": "09AGHY64352JITEG98D",
+         "metadata" : {
+                "Color" : "Metallic Blue",
+                 "Notes" : "Front Mirror not working"
+         }, 
+          "perdayrent" : {
+            "Price" : 155,
+         "Discount" : 15
+         },
+     "metrics" : {
+         "yoymaintenancecost" : 3290.76,
+         "depreciation": 1256.43,
+         "rentalcount" : {
+             "lastweek" : 4,
+             "yeartodate" : 321
+             }
+         }
+    },
+    {
+          "make":"Hyundai",
+          "model":"S2",
+          "vin": "09AGHY64352JITEG98O",
+         "metadata" : {
+                "Color" : "Grey",
+                 "Notes" : "Car wheels replacement"
+         }, 
+          "perdayrent" : {
+            "Price" : 110,
+         "Discount" : 15
+         },
+     "metrics" : {
+         "yoymaintenancecost" : 2190.76,
+         "depreciation": 2556.43,
+         "rentalcount" : {
+             "lastweek" : 4,
+             "yeartodate" : 276
+             }
+         }
+    },
+    {
+          "make":"Tesla",
+          "model":"A2",
+          "vin": "09AGHY64352JITEG98H",
+         "metadata" : {
+                "Color" : "Royal Blue",
+                 "Notes" : "Scratches on the Seats"
+         }, 
+          "perdayrent" : {
+            "Price" : 130,
+         "Discount" : 15
+         },
+     "metrics" : {
+         "yoymaintenancecost" : 2690.76,
+         "depreciation": 2786.43,
+         "rentalcount" : {
+             "lastweek" : 4,
+             "yeartodate" : 289
+             }
+         }
+    }]
+    }
+         
+2020-08-13 02:05:12 INFO  RentalCarsTest 37 - get the status code of response200
+2020-08-13 02:05:12 INFO  RentalCarsTest 40 - Get the response body:{  
+
+ "Car":[{
+          "make":"Audi",
+          "model":"A7",
+          "vin": "09AGHY64352JITEG98K",
+         "metadata" : {
+                "Color" : "Black",
+                 "Notes" : "Scratches on the front side of the car"
+         }, 
+          "perdayrent" : {
+            "Price" : 140,
+         "Discount" : 15
+         },
+     "metrics" : {
+         "yoymaintenancecost" : 2190.76,
+         "depreciation": 2256.43,
+         "rentalcount" : {
+             "lastweek" : 4,
+             "yeartodate" : 221
+             }
+         }
+    },
+    
+     {
+          "make":"Tesla",
+          "model":"A6",
+          "vin": "09AGHY64352JITEG98A",
+         "metadata" : {
+                "Color" : "Blue",
+                 "Notes" : "oil changes required"
+         }, 
+          "perdayrent" : {
+            "Price" : 150,
+         "Discount" : 15
+         },
+     "metrics" : {
+         "yoymaintenancecost" : 3190.76,
+         "depreciation": 2156.43,
+         "rentalcount" : {
+             "lastweek" : 4,
+             "yeartodate" : 221
+             }
+         }
+    },
+    
+    {
+          "make":"Honda",
+          "model":"A11",
+          "vin": "09AGHY64352JITEG98R",
+         "metadata" : {
+                "Color" : "Brown",
+                 "Notes" : "Parts to replaced"
+         }, 
+          "perdayrent" : {
+            "Price" : 170,
+         "Discount" : 15
+         },
+     "metrics" : {
+         "yoymaintenancecost" : 3390.76,
+         "depreciation": 2756.43,
+         "rentalcount" : {
+             "lastweek" : 4,
+             "yeartodate" : 226
+             }
+         }
+    },
+    {
+          "make":"Audi",
+          "model":"A2",
+          "vin": "09AGHY64352JITEG98Y",
+         "metadata" : {
+                "Color" : "Red",
+                 "Notes" : "service required"
+         }, 
+          "perdayrent" : {
+            "Price" : 150,
+         "Discount" : 15
+         },
+     "metrics" : {
+         "yoymaintenancecost" : 3190.76,
+         "depreciation": 2056.43,
+         "rentalcount" : {
+             "lastweek" : 4,
+             "yeartodate" : 278
+             }
+         }
+    },
+    {
+          "make":"Tesla",
+          "model":"B4",
+          "vin": "09AGHY64352JITEG98K",
+         "metadata" : {
+                "Color" : "Royal Blue",
+                 "Notes" : "Scratches on the doors"
+         }, 
+          "perdayrent" : {
+            "Price" : 120,
+         "Discount" : 15
+         },
+     "metrics" : {
+         "yoymaintenancecost" : 2900.76,
+         "depreciation": 2656.43,
+         "rentalcount" : {
+             "lastweek" : 4,
+             "yeartodate" : 218
+             }
+         }
+    },
+    {
+          "make":"Honda",
+          "model":"A22",
+          "vin": "09AGHY64352JITEG98T",
+         "metadata" : {
+                "Color" : "Green",
+                 "Notes" : "Break replacement"
+         }, 
+          "perdayrent" : {
+            "Price" : 120,
+         "Discount" : 15
+         },
+     "metrics" : {
+         "yoymaintenancecost" : 2800.00,
+         "depreciation": 2678.43,
+         "rentalcount" : {
+             "lastweek" : 4,
+             "yeartodate" : 254
+             }
+         }
+    },
+    {
+          "make":"Tesla",
+          "model":"A32",
+          "vin": "09AGHY64352JITEG98D",
+         "metadata" : {
+                "Color" : "Metallic Blue",
+                 "Notes" : "Front Mirror not working"
+         }, 
+          "perdayrent" : {
+            "Price" : 155,
+         "Discount" : 15
+         },
+     "metrics" : {
+         "yoymaintenancecost" : 3290.76,
+         "depreciation": 1256.43,
+         "rentalcount" : {
+             "lastweek" : 4,
+             "yeartodate" : 321
+             }
+         }
+    },
+    {
+          "make":"Hyundai",
+          "model":"S2",
+          "vin": "09AGHY64352JITEG98O",
+         "metadata" : {
+                "Color" : "Grey",
+                 "Notes" : "Car wheels replacement"
+         }, 
+          "perdayrent" : {
+            "Price" : 110,
+         "Discount" : 15
+         },
+     "metrics" : {
+         "yoymaintenancecost" : 2190.76,
+         "depreciation": 2556.43,
+         "rentalcount" : {
+             "lastweek" : 4,
+             "yeartodate" : 276
+             }
+         }
+    },
+    {
+          "make":"Tesla",
+          "model":"A2",
+          "vin": "09AGHY64352JITEG98H",
+         "metadata" : {
+                "Color" : "Royal Blue",
+                 "Notes" : "Scratches on the Seats"
+         }, 
+          "perdayrent" : {
+            "Price" : 130,
+         "Discount" : 15
+         },
+     "metrics" : {
+         "yoymaintenancecost" : 2690.76,
+         "depreciation": 2786.43,
+         "rentalcount" : {
+             "lastweek" : 4,
+             "yeartodate" : 289
+             }
+         }
+    }]
+    }
+         
+2020-08-13 02:05:12 INFO  RentalCarsTest 58 - Get the status code of response:200
+2020-08-13 02:05:12 INFO  RentalCarsTest 62 - Returns the list of all cars:[Audi, Tesla, Honda, Audi, Tesla, Honda, Tesla, Hyundai, Tesla]
+2020-08-13 02:05:12 INFO  RentalCarsTest 130 - Get the status code of response:200
+2020-08-13 02:05:12 INFO  RentalCarsTest 134 - print perdayrental cost of all cars :[{Discount=15, Price=140}, {Discount=15, Price=150}, {Discount=15, Price=170}, {Discount=15, Price=150}, {Discount=15, Price=120}, {Discount=15, Price=120}, {Discount=15, Price=155}, {Discount=15, Price=110}, {Discount=15, Price=130}]
+2020-08-13 02:05:13 INFO  RentalCarsTest 150 - Returns all cars starting from lowest perdayrent with price only:
+2020-08-13 02:05:13 INFO  RentalCarsTest 157 - Vin : 09AGHY64352JITEG98O----------------> Price :110.0
+2020-08-13 02:05:13 INFO  RentalCarsTest 157 - Vin : 09AGHY64352JITEG98K----------------> Price :120.0
+2020-08-13 02:05:13 INFO  RentalCarsTest 157 - Vin : 09AGHY64352JITEG98T----------------> Price :120.0
+2020-08-13 02:05:13 INFO  RentalCarsTest 157 - Vin : 09AGHY64352JITEG98H----------------> Price :130.0
+2020-08-13 02:05:13 INFO  RentalCarsTest 157 - Vin : 09AGHY64352JITEG98K----------------> Price :140.0
+2020-08-13 02:05:13 INFO  RentalCarsTest 157 - Vin : 09AGHY64352JITEG98A----------------> Price :150.0
+2020-08-13 02:05:13 INFO  RentalCarsTest 157 - Vin : 09AGHY64352JITEG98Y----------------> Price :150.0
+2020-08-13 02:05:13 INFO  RentalCarsTest 157 - Vin : 09AGHY64352JITEG98D----------------> Price :155.0
+2020-08-13 02:05:13 INFO  RentalCarsTest 157 - Vin : 09AGHY64352JITEG98R----------------> Price :170.0
+2020-08-13 02:05:13 INFO  RentalCarsTest 162 - Returns all cars starting from lowest paydayrent with price after discount :
+2020-08-13 02:05:13 INFO  RentalCarsTest 171 - Vin: 09AGHY64352JITEG98O-------------------> PriceAfterDiscount: 93.5
+2020-08-13 02:05:13 INFO  RentalCarsTest 171 - Vin: 09AGHY64352JITEG98K-------------------> PriceAfterDiscount: 102.0
+2020-08-13 02:05:13 INFO  RentalCarsTest 171 - Vin: 09AGHY64352JITEG98T-------------------> PriceAfterDiscount: 102.0
+2020-08-13 02:05:13 INFO  RentalCarsTest 171 - Vin: 09AGHY64352JITEG98H-------------------> PriceAfterDiscount: 110.5
+2020-08-13 02:05:13 INFO  RentalCarsTest 171 - Vin: 09AGHY64352JITEG98K-------------------> PriceAfterDiscount: 119.0
+2020-08-13 02:05:13 INFO  RentalCarsTest 171 - Vin: 09AGHY64352JITEG98A-------------------> PriceAfterDiscount: 127.5
+2020-08-13 02:05:13 INFO  RentalCarsTest 171 - Vin: 09AGHY64352JITEG98Y-------------------> PriceAfterDiscount: 127.5
+2020-08-13 02:05:13 INFO  RentalCarsTest 171 - Vin: 09AGHY64352JITEG98D-------------------> PriceAfterDiscount: 131.75
+2020-08-13 02:05:13 INFO  RentalCarsTest 171 - Vin: 09AGHY64352JITEG98R-------------------> PriceAfterDiscount: 144.5
+2020-08-13 02:05:13 INFO  RentalCarsTest 190 - Get the status code of response:200
+2020-08-13 02:05:13 INFO  RentalCarsTest 198 - Returns each car with year to year maintainacecost plus depreciation:[{yoymaintenancecost=2190.76, rentalcount={lastweek=4, yeartodate=221}, depreciation=2256.43}, {yoymaintenancecost=3190.76, rentalcount={lastweek=4, yeartodate=221}, depreciation=2156.43}, {yoymaintenancecost=3390.76, rentalcount={lastweek=4, yeartodate=226}, depreciation=2756.43}, {yoymaintenancecost=3190.76, rentalcount={lastweek=4, yeartodate=278}, depreciation=2056.43}, {yoymaintenancecost=2900.76, rentalcount={lastweek=4, yeartodate=218}, depreciation=2656.43}, {yoymaintenancecost=2800.0, rentalcount={lastweek=4, yeartodate=254}, depreciation=2678.43}, {yoymaintenancecost=3290.76, rentalcount={lastweek=4, yeartodate=321}, depreciation=1256.43}, {yoymaintenancecost=2190.76, rentalcount={lastweek=4, yeartodate=276}, depreciation=2556.43}, {yoymaintenancecost=2690.76, rentalcount={lastweek=4, yeartodate=289}, depreciation=2786.43}]
+2020-08-13 02:05:13 INFO  RentalCarsTest 220 - Highest Revenue
+2020-08-13 02:05:13 INFO  RentalCarsTest 226 - Vin: 09AGHY64352JITEG98D--------------------->CarREvenue:  37744.56
+2020-08-13 02:05:13 INFO  RentalCarsTest 226 - Vin: 09AGHY64352JITEG98Y--------------------->CarREvenue:  30197.81
+2020-08-13 02:05:13 INFO  RentalCarsTest 226 - Vin: 09AGHY64352JITEG98R--------------------->CarREvenue:  26509.81
+2020-08-13 02:05:13 INFO  RentalCarsTest 226 - Vin: 09AGHY64352JITEG98H--------------------->CarREvenue:  26457.31
+2020-08-13 02:05:13 INFO  RentalCarsTest 226 - Vin: 09AGHY64352JITEG98A--------------------->CarREvenue:  22830.31
+2020-08-13 02:05:13 INFO  RentalCarsTest 226 - Vin: 09AGHY64352JITEG98K--------------------->CarREvenue:  21851.81
+2020-08-13 02:05:13 INFO  RentalCarsTest 226 - Vin: 09AGHY64352JITEG98O--------------------->CarREvenue:  21058.81
+2020-08-13 02:05:13 INFO  RentalCarsTest 226 - Vin: 09AGHY64352JITEG98T--------------------->CarREvenue:  20429.57
+2020-08-13 02:05:13 INFO  RentalCarsTest 226 - Vin: 09AGHY64352JITEG98K--------------------->CarREvenue:  16678.81
+2020-08-13 02:07:22 INFO  RentalCarsTest 35 - Get the response body after parsing as string:{  
+
+ "Car":[{
+          "make":"Audi",
+          "model":"A7",
+          "vin": "09AGHY64352JITEG98K",
+         "metadata" : {
+                "Color" : "Black",
+                 "Notes" : "Scratches on the front side of the car"
+         }, 
+          "perdayrent" : {
+            "Price" : 140,
+         "Discount" : 15
+         },
+     "metrics" : {
+         "yoymaintenancecost" : 2190.76,
+         "depreciation": 2256.43,
+         "rentalcount" : {
+             "lastweek" : 4,
+             "yeartodate" : 221
+             }
+         }
+    },
+    
+     {
+          "make":"Tesla",
+          "model":"A6",
+          "vin": "09AGHY64352JITEG98A",
+         "metadata" : {
+                "Color" : "Blue",
+                 "Notes" : "oil changes required"
+         }, 
+          "perdayrent" : {
+            "Price" : 150,
+         "Discount" : 15
+         },
+     "metrics" : {
+         "yoymaintenancecost" : 3190.76,
+         "depreciation": 2156.43,
+         "rentalcount" : {
+             "lastweek" : 4,
+             "yeartodate" : 221
+             }
+         }
+    },
+    
+    {
+          "make":"Honda",
+          "model":"A11",
+          "vin": "09AGHY64352JITEG98R",
+         "metadata" : {
+                "Color" : "Brown",
+                 "Notes" : "Parts to replaced"
+         }, 
+          "perdayrent" : {
+            "Price" : 170,
+         "Discount" : 15
+         },
+     "metrics" : {
+         "yoymaintenancecost" : 3390.76,
+         "depreciation": 2756.43,
+         "rentalcount" : {
+             "lastweek" : 4,
+             "yeartodate" : 226
+             }
+         }
+    },
+    {
+          "make":"Audi",
+          "model":"A2",
+          "vin": "09AGHY64352JITEG98Y",
+         "metadata" : {
+                "Color" : "Red",
+                 "Notes" : "service required"
+         }, 
+          "perdayrent" : {
+            "Price" : 150,
+         "Discount" : 15
+         },
+     "metrics" : {
+         "yoymaintenancecost" : 3190.76,
+         "depreciation": 2056.43,
+         "rentalcount" : {
+             "lastweek" : 4,
+             "yeartodate" : 278
+             }
+         }
+    },
+    {
+          "make":"Tesla",
+          "model":"B4",
+          "vin": "09AGHY64352JITEG98K",
+         "metadata" : {
+                "Color" : "Royal Blue",
+                 "Notes" : "Oil changes required"
+         }, 
+          "perdayrent" : {
+            "Price" : 120,
+         "Discount" : 15
+         },
+     "metrics" : {
+         "yoymaintenancecost" : 2900.76,
+         "depreciation": 2656.43,
+         "rentalcount" : {
+             "lastweek" : 4,
+             "yeartodate" : 218
+             }
+         }
+    },
+    {
+          "make":"Honda",
+          "model":"A22",
+          "vin": "09AGHY64352JITEG98T",
+         "metadata" : {
+                "Color" : "Green",
+                 "Notes" : "Break replacement"
+         }, 
+          "perdayrent" : {
+            "Price" : 120,
+         "Discount" : 15
+         },
+     "metrics" : {
+         "yoymaintenancecost" : 2800.00,
+         "depreciation": 2678.43,
+         "rentalcount" : {
+             "lastweek" : 4,
+             "yeartodate" : 254
+             }
+         }
+    },
+    {
+          "make":"Tesla",
+          "model":"A32",
+          "vin": "09AGHY64352JITEG98D",
+         "metadata" : {
+                "Color" : "Metallic Blue",
+                 "Notes" : "Front Mirror not working"
+         }, 
+          "perdayrent" : {
+            "Price" : 155,
+         "Discount" : 15
+         },
+     "metrics" : {
+         "yoymaintenancecost" : 3290.76,
+         "depreciation": 1256.43,
+         "rentalcount" : {
+             "lastweek" : 4,
+             "yeartodate" : 321
+             }
+         }
+    },
+    {
+          "make":"Hyundai",
+          "model":"S2",
+          "vin": "09AGHY64352JITEG98O",
+         "metadata" : {
+                "Color" : "Grey",
+                 "Notes" : "Car wheels replacement"
+         }, 
+          "perdayrent" : {
+            "Price" : 110,
+         "Discount" : 15
+         },
+     "metrics" : {
+         "yoymaintenancecost" : 2190.76,
+         "depreciation": 2556.43,
+         "rentalcount" : {
+             "lastweek" : 4,
+             "yeartodate" : 276
+             }
+         }
+    },
+    {
+          "make":"Tesla",
+          "model":"A2",
+          "vin": "09AGHY64352JITEG98H",
+         "metadata" : {
+                "Color" : "Royal Blue",
+                 "Notes" : "Scratches on the Seats"
+         }, 
+          "perdayrent" : {
+            "Price" : 130,
+         "Discount" : 15
+         },
+     "metrics" : {
+         "yoymaintenancecost" : 2690.76,
+         "depreciation": 2786.43,
+         "rentalcount" : {
+             "lastweek" : 4,
+             "yeartodate" : 289
+             }
+         }
+    }]
+    }
+         
+2020-08-13 02:07:22 INFO  RentalCarsTest 37 - get the status code of response200
+2020-08-13 02:07:22 INFO  RentalCarsTest 40 - Get the response body:{  
+
+ "Car":[{
+          "make":"Audi",
+          "model":"A7",
+          "vin": "09AGHY64352JITEG98K",
+         "metadata" : {
+                "Color" : "Black",
+                 "Notes" : "Scratches on the front side of the car"
+         }, 
+          "perdayrent" : {
+            "Price" : 140,
+         "Discount" : 15
+         },
+     "metrics" : {
+         "yoymaintenancecost" : 2190.76,
+         "depreciation": 2256.43,
+         "rentalcount" : {
+             "lastweek" : 4,
+             "yeartodate" : 221
+             }
+         }
+    },
+    
+     {
+          "make":"Tesla",
+          "model":"A6",
+          "vin": "09AGHY64352JITEG98A",
+         "metadata" : {
+                "Color" : "Blue",
+                 "Notes" : "oil changes required"
+         }, 
+          "perdayrent" : {
+            "Price" : 150,
+         "Discount" : 15
+         },
+     "metrics" : {
+         "yoymaintenancecost" : 3190.76,
+         "depreciation": 2156.43,
+         "rentalcount" : {
+             "lastweek" : 4,
+             "yeartodate" : 221
+             }
+         }
+    },
+    
+    {
+          "make":"Honda",
+          "model":"A11",
+          "vin": "09AGHY64352JITEG98R",
+         "metadata" : {
+                "Color" : "Brown",
+                 "Notes" : "Parts to replaced"
+         }, 
+          "perdayrent" : {
+            "Price" : 170,
+         "Discount" : 15
+         },
+     "metrics" : {
+         "yoymaintenancecost" : 3390.76,
+         "depreciation": 2756.43,
+         "rentalcount" : {
+             "lastweek" : 4,
+             "yeartodate" : 226
+             }
+         }
+    },
+    {
+          "make":"Audi",
+          "model":"A2",
+          "vin": "09AGHY64352JITEG98Y",
+         "metadata" : {
+                "Color" : "Red",
+                 "Notes" : "service required"
+         }, 
+          "perdayrent" : {
+            "Price" : 150,
+         "Discount" : 15
+         },
+     "metrics" : {
+         "yoymaintenancecost" : 3190.76,
+         "depreciation": 2056.43,
+         "rentalcount" : {
+             "lastweek" : 4,
+             "yeartodate" : 278
+             }
+         }
+    },
+    {
+          "make":"Tesla",
+          "model":"B4",
+          "vin": "09AGHY64352JITEG98K",
+         "metadata" : {
+                "Color" : "Royal Blue",
+                 "Notes" : "Oil changes required"
+         }, 
+          "perdayrent" : {
+            "Price" : 120,
+         "Discount" : 15
+         },
+     "metrics" : {
+         "yoymaintenancecost" : 2900.76,
+         "depreciation": 2656.43,
+         "rentalcount" : {
+             "lastweek" : 4,
+             "yeartodate" : 218
+             }
+         }
+    },
+    {
+          "make":"Honda",
+          "model":"A22",
+          "vin": "09AGHY64352JITEG98T",
+         "metadata" : {
+                "Color" : "Green",
+                 "Notes" : "Break replacement"
+         }, 
+          "perdayrent" : {
+            "Price" : 120,
+         "Discount" : 15
+         },
+     "metrics" : {
+         "yoymaintenancecost" : 2800.00,
+         "depreciation": 2678.43,
+         "rentalcount" : {
+             "lastweek" : 4,
+             "yeartodate" : 254
+             }
+         }
+    },
+    {
+          "make":"Tesla",
+          "model":"A32",
+          "vin": "09AGHY64352JITEG98D",
+         "metadata" : {
+                "Color" : "Metallic Blue",
+                 "Notes" : "Front Mirror not working"
+         }, 
+          "perdayrent" : {
+            "Price" : 155,
+         "Discount" : 15
+         },
+     "metrics" : {
+         "yoymaintenancecost" : 3290.76,
+         "depreciation": 1256.43,
+         "rentalcount" : {
+             "lastweek" : 4,
+             "yeartodate" : 321
+             }
+         }
+    },
+    {
+          "make":"Hyundai",
+          "model":"S2",
+          "vin": "09AGHY64352JITEG98O",
+         "metadata" : {
+                "Color" : "Grey",
+                 "Notes" : "Car wheels replacement"
+         }, 
+          "perdayrent" : {
+            "Price" : 110,
+         "Discount" : 15
+         },
+     "metrics" : {
+         "yoymaintenancecost" : 2190.76,
+         "depreciation": 2556.43,
+         "rentalcount" : {
+             "lastweek" : 4,
+             "yeartodate" : 276
+             }
+         }
+    },
+    {
+          "make":"Tesla",
+          "model":"A2",
+          "vin": "09AGHY64352JITEG98H",
+         "metadata" : {
+                "Color" : "Royal Blue",
+                 "Notes" : "Scratches on the Seats"
+         }, 
+          "perdayrent" : {
+            "Price" : 130,
+         "Discount" : 15
+         },
+     "metrics" : {
+         "yoymaintenancecost" : 2690.76,
+         "depreciation": 2786.43,
+         "rentalcount" : {
+             "lastweek" : 4,
+             "yeartodate" : 289
+             }
+         }
+    }]
+    }
+         
+2020-08-13 02:07:22 INFO  RentalCarsTest 58 - Get the status code of response:200
+2020-08-13 02:07:22 INFO  RentalCarsTest 62 - Returns the list of all cars:[Audi, Tesla, Honda, Audi, Tesla, Honda, Tesla, Hyundai, Tesla]
+2020-08-13 02:07:22 INFO  RentalCarsTest 130 - Get the status code of response:200
+2020-08-13 02:07:22 INFO  RentalCarsTest 134 - print perdayrental cost of all cars :[{Discount=15, Price=140}, {Discount=15, Price=150}, {Discount=15, Price=170}, {Discount=15, Price=150}, {Discount=15, Price=120}, {Discount=15, Price=120}, {Discount=15, Price=155}, {Discount=15, Price=110}, {Discount=15, Price=130}]
+2020-08-13 02:07:23 INFO  RentalCarsTest 150 - Returns all cars starting from lowest perdayrent with price only:
+2020-08-13 02:07:23 INFO  RentalCarsTest 157 - Vin : 09AGHY64352JITEG98O----------------> Price :110.0
+2020-08-13 02:07:23 INFO  RentalCarsTest 157 - Vin : 09AGHY64352JITEG98K----------------> Price :120.0
+2020-08-13 02:07:23 INFO  RentalCarsTest 157 - Vin : 09AGHY64352JITEG98T----------------> Price :120.0
+2020-08-13 02:07:23 INFO  RentalCarsTest 157 - Vin : 09AGHY64352JITEG98H----------------> Price :130.0
+2020-08-13 02:07:23 INFO  RentalCarsTest 157 - Vin : 09AGHY64352JITEG98K----------------> Price :140.0
+2020-08-13 02:07:23 INFO  RentalCarsTest 157 - Vin : 09AGHY64352JITEG98A----------------> Price :150.0
+2020-08-13 02:07:23 INFO  RentalCarsTest 157 - Vin : 09AGHY64352JITEG98Y----------------> Price :150.0
+2020-08-13 02:07:23 INFO  RentalCarsTest 157 - Vin : 09AGHY64352JITEG98D----------------> Price :155.0
+2020-08-13 02:07:23 INFO  RentalCarsTest 157 - Vin : 09AGHY64352JITEG98R----------------> Price :170.0
+2020-08-13 02:07:23 INFO  RentalCarsTest 162 - Returns all cars starting from lowest paydayrent with price after discount :
+2020-08-13 02:07:23 INFO  RentalCarsTest 171 - Vin: 09AGHY64352JITEG98O-------------------> PriceAfterDiscount: 93.5
+2020-08-13 02:07:23 INFO  RentalCarsTest 171 - Vin: 09AGHY64352JITEG98K-------------------> PriceAfterDiscount: 102.0
+2020-08-13 02:07:23 INFO  RentalCarsTest 171 - Vin: 09AGHY64352JITEG98T-------------------> PriceAfterDiscount: 102.0
+2020-08-13 02:07:23 INFO  RentalCarsTest 171 - Vin: 09AGHY64352JITEG98H-------------------> PriceAfterDiscount: 110.5
+2020-08-13 02:07:23 INFO  RentalCarsTest 171 - Vin: 09AGHY64352JITEG98K-------------------> PriceAfterDiscount: 119.0
+2020-08-13 02:07:23 INFO  RentalCarsTest 171 - Vin: 09AGHY64352JITEG98A-------------------> PriceAfterDiscount: 127.5
+2020-08-13 02:07:23 INFO  RentalCarsTest 171 - Vin: 09AGHY64352JITEG98Y-------------------> PriceAfterDiscount: 127.5
+2020-08-13 02:07:23 INFO  RentalCarsTest 171 - Vin: 09AGHY64352JITEG98D-------------------> PriceAfterDiscount: 131.75
+2020-08-13 02:07:23 INFO  RentalCarsTest 171 - Vin: 09AGHY64352JITEG98R-------------------> PriceAfterDiscount: 144.5
+2020-08-13 02:07:23 INFO  RentalCarsTest 190 - Get the status code of response:200
+2020-08-13 02:07:23 INFO  RentalCarsTest 198 - Returns each car with year to year maintainacecost plus depreciation:[{yoymaintenancecost=2190.76, rentalcount={lastweek=4, yeartodate=221}, depreciation=2256.43}, {yoymaintenancecost=3190.76, rentalcount={lastweek=4, yeartodate=221}, depreciation=2156.43}, {yoymaintenancecost=3390.76, rentalcount={lastweek=4, yeartodate=226}, depreciation=2756.43}, {yoymaintenancecost=3190.76, rentalcount={lastweek=4, yeartodate=278}, depreciation=2056.43}, {yoymaintenancecost=2900.76, rentalcount={lastweek=4, yeartodate=218}, depreciation=2656.43}, {yoymaintenancecost=2800.0, rentalcount={lastweek=4, yeartodate=254}, depreciation=2678.43}, {yoymaintenancecost=3290.76, rentalcount={lastweek=4, yeartodate=321}, depreciation=1256.43}, {yoymaintenancecost=2190.76, rentalcount={lastweek=4, yeartodate=276}, depreciation=2556.43}, {yoymaintenancecost=2690.76, rentalcount={lastweek=4, yeartodate=289}, depreciation=2786.43}]
+2020-08-13 02:07:23 INFO  RentalCarsTest 220 - Highest Revenue
+2020-08-13 02:07:23 INFO  RentalCarsTest 226 - Vin: 09AGHY64352JITEG98D--------------------->CarREvenue:  37744.56
+2020-08-13 02:07:23 INFO  RentalCarsTest 226 - Vin: 09AGHY64352JITEG98Y--------------------->CarREvenue:  30197.81
+2020-08-13 02:07:23 INFO  RentalCarsTest 226 - Vin: 09AGHY64352JITEG98R--------------------->CarREvenue:  26509.81
+2020-08-13 02:07:23 INFO  RentalCarsTest 226 - Vin: 09AGHY64352JITEG98H--------------------->CarREvenue:  26457.31
+2020-08-13 02:07:23 INFO  RentalCarsTest 226 - Vin: 09AGHY64352JITEG98A--------------------->CarREvenue:  22830.31
+2020-08-13 02:07:23 INFO  RentalCarsTest 226 - Vin: 09AGHY64352JITEG98K--------------------->CarREvenue:  21851.81
+2020-08-13 02:07:23 INFO  RentalCarsTest 226 - Vin: 09AGHY64352JITEG98O--------------------->CarREvenue:  21058.81
+2020-08-13 02:07:23 INFO  RentalCarsTest 226 - Vin: 09AGHY64352JITEG98T--------------------->CarREvenue:  20429.57
+2020-08-13 02:07:23 INFO  RentalCarsTest 226 - Vin: 09AGHY64352JITEG98K--------------------->CarREvenue:  16678.81
+2020-08-13 02:09:21 INFO  RentalCarsTest 35 - Get the response body after parsing as string:{  
+
+ "Car":[{
+          "make":"Audi",
+          "model":"A7",
+          "vin": "09AGHY64352JITEG98K",
+         "metadata" : {
+                "Color" : "Black",
+                 "Notes" : "Scratches on the front side of the car"
+         }, 
+          "perdayrent" : {
+            "Price" : 140,
+         "Discount" : 15
+         },
+     "metrics" : {
+         "yoymaintenancecost" : 2190.76,
+         "depreciation": 2256.43,
+         "rentalcount" : {
+             "lastweek" : 4,
+             "yeartodate" : 221
+             }
+         }
+    },
+    
+     {
+          "make":"Tesla",
+          "model":"A6",
+          "vin": "09AGHY64352JITEG98A",
+         "metadata" : {
+                "Color" : "Blue",
+                 "Notes" : "oil changes required"
+         }, 
+          "perdayrent" : {
+            "Price" : 150,
+         "Discount" : 15
+         },
+     "metrics" : {
+         "yoymaintenancecost" : 3190.76,
+         "depreciation": 2156.43,
+         "rentalcount" : {
+             "lastweek" : 4,
+             "yeartodate" : 221
+             }
+         }
+    },
+    
+    {
+          "make":"Honda",
+          "model":"A11",
+          "vin": "09AGHY64352JITEG98R",
+         "metadata" : {
+                "Color" : "Brown",
+                 "Notes" : "Parts to replaced"
+         }, 
+          "perdayrent" : {
+            "Price" : 170,
+         "Discount" : 15
+         },
+     "metrics" : {
+         "yoymaintenancecost" : 3390.76,
+         "depreciation": 2756.43,
+         "rentalcount" : {
+             "lastweek" : 4,
+             "yeartodate" : 226
+             }
+         }
+    },
+    {
+          "make":"Audi",
+          "model":"A2",
+          "vin": "09AGHY64352JITEG98Y",
+         "metadata" : {
+                "Color" : "Red",
+                 "Notes" : "service required"
+         }, 
+          "perdayrent" : {
+            "Price" : 150,
+         "Discount" : 15
+         },
+     "metrics" : {
+         "yoymaintenancecost" : 3190.76,
+         "depreciation": 2056.43,
+         "rentalcount" : {
+             "lastweek" : 4,
+             "yeartodate" : 278
+             }
+         }
+    },
+    {
+          "make":"Tesla",
+          "model":"B4",
+          "vin": "09AGHY64352JITEG98K",
+         "metadata" : {
+                "Color" : " Blue",
+                 "Notes" : "Oil  required"
+         }, 
+          "perdayrent" : {
+            "Price" : 120,
+         "Discount" : 15
+         },
+     "metrics" : {
+         "yoymaintenancecost" : 2900.76,
+         "depreciation": 2656.43,
+         "rentalcount" : {
+             "lastweek" : 4,
+             "yeartodate" : 218
+             }
+         }
+    },
+    {
+          "make":"Honda",
+          "model":"A22",
+          "vin": "09AGHY64352JITEG98T",
+         "metadata" : {
+                "Color" : "Green",
+                 "Notes" : "Break replacement"
+         }, 
+          "perdayrent" : {
+            "Price" : 120,
+         "Discount" : 15
+         },
+     "metrics" : {
+         "yoymaintenancecost" : 2800.00,
+         "depreciation": 2678.43,
+         "rentalcount" : {
+             "lastweek" : 4,
+             "yeartodate" : 254
+             }
+         }
+    },
+    {
+          "make":"Tesla",
+          "model":"A32",
+          "vin": "09AGHY64352JITEG98D",
+         "metadata" : {
+                "Color" : "Metallic Blue",
+                 "Notes" : "Front Mirror not working"
+         }, 
+          "perdayrent" : {
+            "Price" : 155,
+         "Discount" : 15
+         },
+     "metrics" : {
+         "yoymaintenancecost" : 3290.76,
+         "depreciation": 1256.43,
+         "rentalcount" : {
+             "lastweek" : 4,
+             "yeartodate" : 321
+             }
+         }
+    },
+    {
+          "make":"Hyundai",
+          "model":"S2",
+          "vin": "09AGHY64352JITEG98O",
+         "metadata" : {
+                "Color" : "Grey",
+                 "Notes" : "Car wheels replacement"
+         }, 
+          "perdayrent" : {
+            "Price" : 110,
+         "Discount" : 15
+         },
+     "metrics" : {
+         "yoymaintenancecost" : 2190.76,
+         "depreciation": 2556.43,
+         "rentalcount" : {
+             "lastweek" : 4,
+             "yeartodate" : 276
+             }
+         }
+    },
+    {
+          "make":"Tesla",
+          "model":"A2",
+          "vin": "09AGHY64352JITEG98H",
+         "metadata" : {
+                "Color" : "Royal Blue",
+                 "Notes" : "Scratches on the Seats"
+         }, 
+          "perdayrent" : {
+            "Price" : 130,
+         "Discount" : 15
+         },
+     "metrics" : {
+         "yoymaintenancecost" : 2690.76,
+         "depreciation": 2786.43,
+         "rentalcount" : {
+             "lastweek" : 4,
+             "yeartodate" : 289
+             }
+         }
+    }]
+    }
+         
+2020-08-13 02:09:21 INFO  RentalCarsTest 37 - get the status code of response200
+2020-08-13 02:09:21 INFO  RentalCarsTest 40 - Get the response body:{  
+
+ "Car":[{
+          "make":"Audi",
+          "model":"A7",
+          "vin": "09AGHY64352JITEG98K",
+         "metadata" : {
+                "Color" : "Black",
+                 "Notes" : "Scratches on the front side of the car"
+         }, 
+          "perdayrent" : {
+            "Price" : 140,
+         "Discount" : 15
+         },
+     "metrics" : {
+         "yoymaintenancecost" : 2190.76,
+         "depreciation": 2256.43,
+         "rentalcount" : {
+             "lastweek" : 4,
+             "yeartodate" : 221
+             }
+         }
+    },
+    
+     {
+          "make":"Tesla",
+          "model":"A6",
+          "vin": "09AGHY64352JITEG98A",
+         "metadata" : {
+                "Color" : "Blue",
+                 "Notes" : "oil changes required"
+         }, 
+          "perdayrent" : {
+            "Price" : 150,
+         "Discount" : 15
+         },
+     "metrics" : {
+         "yoymaintenancecost" : 3190.76,
+         "depreciation": 2156.43,
+         "rentalcount" : {
+             "lastweek" : 4,
+             "yeartodate" : 221
+             }
+         }
+    },
+    
+    {
+          "make":"Honda",
+          "model":"A11",
+          "vin": "09AGHY64352JITEG98R",
+         "metadata" : {
+                "Color" : "Brown",
+                 "Notes" : "Parts to replaced"
+         }, 
+          "perdayrent" : {
+            "Price" : 170,
+         "Discount" : 15
+         },
+     "metrics" : {
+         "yoymaintenancecost" : 3390.76,
+         "depreciation": 2756.43,
+         "rentalcount" : {
+             "lastweek" : 4,
+             "yeartodate" : 226
+             }
+         }
+    },
+    {
+          "make":"Audi",
+          "model":"A2",
+          "vin": "09AGHY64352JITEG98Y",
+         "metadata" : {
+                "Color" : "Red",
+                 "Notes" : "service required"
+         }, 
+          "perdayrent" : {
+            "Price" : 150,
+         "Discount" : 15
+         },
+     "metrics" : {
+         "yoymaintenancecost" : 3190.76,
+         "depreciation": 2056.43,
+         "rentalcount" : {
+             "lastweek" : 4,
+             "yeartodate" : 278
+             }
+         }
+    },
+    {
+          "make":"Tesla",
+          "model":"B4",
+          "vin": "09AGHY64352JITEG98K",
+         "metadata" : {
+                "Color" : " Blue",
+                 "Notes" : "Oil  required"
+         }, 
+          "perdayrent" : {
+            "Price" : 120,
+         "Discount" : 15
+         },
+     "metrics" : {
+         "yoymaintenancecost" : 2900.76,
+         "depreciation": 2656.43,
+         "rentalcount" : {
+             "lastweek" : 4,
+             "yeartodate" : 218
+             }
+         }
+    },
+    {
+          "make":"Honda",
+          "model":"A22",
+          "vin": "09AGHY64352JITEG98T",
+         "metadata" : {
+                "Color" : "Green",
+                 "Notes" : "Break replacement"
+         }, 
+          "perdayrent" : {
+            "Price" : 120,
+         "Discount" : 15
+         },
+     "metrics" : {
+         "yoymaintenancecost" : 2800.00,
+         "depreciation": 2678.43,
+         "rentalcount" : {
+             "lastweek" : 4,
+             "yeartodate" : 254
+             }
+         }
+    },
+    {
+          "make":"Tesla",
+          "model":"A32",
+          "vin": "09AGHY64352JITEG98D",
+         "metadata" : {
+                "Color" : "Metallic Blue",
+                 "Notes" : "Front Mirror not working"
+         }, 
+          "perdayrent" : {
+            "Price" : 155,
+         "Discount" : 15
+         },
+     "metrics" : {
+         "yoymaintenancecost" : 3290.76,
+         "depreciation": 1256.43,
+         "rentalcount" : {
+             "lastweek" : 4,
+             "yeartodate" : 321
+             }
+         }
+    },
+    {
+          "make":"Hyundai",
+          "model":"S2",
+          "vin": "09AGHY64352JITEG98O",
+         "metadata" : {
+                "Color" : "Grey",
+                 "Notes" : "Car wheels replacement"
+         }, 
+          "perdayrent" : {
+            "Price" : 110,
+         "Discount" : 15
+         },
+     "metrics" : {
+         "yoymaintenancecost" : 2190.76,
+         "depreciation": 2556.43,
+         "rentalcount" : {
+             "lastweek" : 4,
+             "yeartodate" : 276
+             }
+         }
+    },
+    {
+          "make":"Tesla",
+          "model":"A2",
+          "vin": "09AGHY64352JITEG98H",
+         "metadata" : {
+                "Color" : "Royal Blue",
+                 "Notes" : "Scratches on the Seats"
+         }, 
+          "perdayrent" : {
+            "Price" : 130,
+         "Discount" : 15
+         },
+     "metrics" : {
+         "yoymaintenancecost" : 2690.76,
+         "depreciation": 2786.43,
+         "rentalcount" : {
+             "lastweek" : 4,
+             "yeartodate" : 289
+             }
+         }
+    }]
+    }
+         
+2020-08-13 02:09:21 INFO  RentalCarsTest 58 - Get the status code of response:200
+2020-08-13 02:09:21 INFO  RentalCarsTest 62 - Returns the list of all cars:[Audi, Tesla, Honda, Audi, Tesla, Honda, Tesla, Hyundai, Tesla]
+2020-08-13 02:09:21 INFO  RentalCarsTest 130 - Get the status code of response:200
+2020-08-13 02:09:21 INFO  RentalCarsTest 134 - print perdayrental cost of all cars :[{Discount=15, Price=140}, {Discount=15, Price=150}, {Discount=15, Price=170}, {Discount=15, Price=150}, {Discount=15, Price=120}, {Discount=15, Price=120}, {Discount=15, Price=155}, {Discount=15, Price=110}, {Discount=15, Price=130}]
+2020-08-13 02:09:21 INFO  RentalCarsTest 150 - Returns all cars starting from lowest perdayrent with price only:
+2020-08-13 02:09:21 INFO  RentalCarsTest 157 - Vin : 09AGHY64352JITEG98O----------------> Price :110.0
+2020-08-13 02:09:21 INFO  RentalCarsTest 157 - Vin : 09AGHY64352JITEG98K----------------> Price :120.0
+2020-08-13 02:09:21 INFO  RentalCarsTest 157 - Vin : 09AGHY64352JITEG98T----------------> Price :120.0
+2020-08-13 02:09:21 INFO  RentalCarsTest 157 - Vin : 09AGHY64352JITEG98H----------------> Price :130.0
+2020-08-13 02:09:21 INFO  RentalCarsTest 157 - Vin : 09AGHY64352JITEG98K----------------> Price :140.0
+2020-08-13 02:09:21 INFO  RentalCarsTest 157 - Vin : 09AGHY64352JITEG98A----------------> Price :150.0
+2020-08-13 02:09:21 INFO  RentalCarsTest 157 - Vin : 09AGHY64352JITEG98Y----------------> Price :150.0
+2020-08-13 02:09:21 INFO  RentalCarsTest 157 - Vin : 09AGHY64352JITEG98D----------------> Price :155.0
+2020-08-13 02:09:21 INFO  RentalCarsTest 157 - Vin : 09AGHY64352JITEG98R----------------> Price :170.0
+2020-08-13 02:09:21 INFO  RentalCarsTest 162 - Returns all cars starting from lowest paydayrent with price after discount :
+2020-08-13 02:09:21 INFO  RentalCarsTest 171 - Vin: 09AGHY64352JITEG98O-------------------> PriceAfterDiscount: 93.5
+2020-08-13 02:09:21 INFO  RentalCarsTest 171 - Vin: 09AGHY64352JITEG98K-------------------> PriceAfterDiscount: 102.0
+2020-08-13 02:09:21 INFO  RentalCarsTest 171 - Vin: 09AGHY64352JITEG98T-------------------> PriceAfterDiscount: 102.0
+2020-08-13 02:09:21 INFO  RentalCarsTest 171 - Vin: 09AGHY64352JITEG98H-------------------> PriceAfterDiscount: 110.5
+2020-08-13 02:09:21 INFO  RentalCarsTest 171 - Vin: 09AGHY64352JITEG98K-------------------> PriceAfterDiscount: 119.0
+2020-08-13 02:09:21 INFO  RentalCarsTest 171 - Vin: 09AGHY64352JITEG98A-------------------> PriceAfterDiscount: 127.5
+2020-08-13 02:09:21 INFO  RentalCarsTest 171 - Vin: 09AGHY64352JITEG98Y-------------------> PriceAfterDiscount: 127.5
+2020-08-13 02:09:21 INFO  RentalCarsTest 171 - Vin: 09AGHY64352JITEG98D-------------------> PriceAfterDiscount: 131.75
+2020-08-13 02:09:21 INFO  RentalCarsTest 171 - Vin: 09AGHY64352JITEG98R-------------------> PriceAfterDiscount: 144.5
+2020-08-13 02:09:21 INFO  RentalCarsTest 190 - Get the status code of response:200
+2020-08-13 02:09:21 INFO  RentalCarsTest 198 - Returns each car with year to year maintainacecost plus depreciation:[{yoymaintenancecost=2190.76, rentalcount={lastweek=4, yeartodate=221}, depreciation=2256.43}, {yoymaintenancecost=3190.76, rentalcount={lastweek=4, yeartodate=221}, depreciation=2156.43}, {yoymaintenancecost=3390.76, rentalcount={lastweek=4, yeartodate=226}, depreciation=2756.43}, {yoymaintenancecost=3190.76, rentalcount={lastweek=4, yeartodate=278}, depreciation=2056.43}, {yoymaintenancecost=2900.76, rentalcount={lastweek=4, yeartodate=218}, depreciation=2656.43}, {yoymaintenancecost=2800.0, rentalcount={lastweek=4, yeartodate=254}, depreciation=2678.43}, {yoymaintenancecost=3290.76, rentalcount={lastweek=4, yeartodate=321}, depreciation=1256.43}, {yoymaintenancecost=2190.76, rentalcount={lastweek=4, yeartodate=276}, depreciation=2556.43}, {yoymaintenancecost=2690.76, rentalcount={lastweek=4, yeartodate=289}, depreciation=2786.43}]
+2020-08-13 02:09:22 INFO  RentalCarsTest 220 - Highest Revenue
+2020-08-13 02:09:22 INFO  RentalCarsTest 226 - Vin: 09AGHY64352JITEG98D--------------------->CarREvenue:  37744.56
+2020-08-13 02:09:22 INFO  RentalCarsTest 226 - Vin: 09AGHY64352JITEG98Y--------------------->CarREvenue:  30197.81
+2020-08-13 02:09:22 INFO  RentalCarsTest 226 - Vin: 09AGHY64352JITEG98R--------------------->CarREvenue:  26509.81
+2020-08-13 02:09:22 INFO  RentalCarsTest 226 - Vin: 09AGHY64352JITEG98H--------------------->CarREvenue:  26457.31
+2020-08-13 02:09:22 INFO  RentalCarsTest 226 - Vin: 09AGHY64352JITEG98A--------------------->CarREvenue:  22830.31
+2020-08-13 02:09:22 INFO  RentalCarsTest 226 - Vin: 09AGHY64352JITEG98K--------------------->CarREvenue:  21851.81
+2020-08-13 02:09:22 INFO  RentalCarsTest 226 - Vin: 09AGHY64352JITEG98O--------------------->CarREvenue:  21058.81
+2020-08-13 02:09:22 INFO  RentalCarsTest 226 - Vin: 09AGHY64352JITEG98T--------------------->CarREvenue:  20429.57
+2020-08-13 02:09:22 INFO  RentalCarsTest 226 - Vin: 09AGHY64352JITEG98K--------------------->CarREvenue:  16678.81
+2020-08-13 02:16:10 INFO  RentalCarsTest 35 - Get the response body after parsing as string:{  
+
+ "Car":[{
+          "make":"Audi",
+          "model":"A7",
+          "vin": "09AGHY64352JITEG98K",
+         "metadata" : {
+                "Color" : "Black",
+                 "Notes" : "Scratches on the front side of the car"
+         }, 
+          "perdayrent" : {
+            "Price" : 140,
+         "Discount" : 15
+         },
+     "metrics" : {
+         "yoymaintenancecost" : 2190.76,
+         "depreciation": 2256.43,
+         "rentalcount" : {
+             "lastweek" : 4,
+             "yeartodate" : 221
+             }
+         }
+    },
+    
+     {
+          "make":"Tesla",
+          "model":"A6",
+          "vin": "09AGHY64352JITEG98A",
+         "metadata" : {
+                "Color" : "Blue",
+                 "Notes" : "oil changes required"
+         }, 
+          "perdayrent" : {
+            "Price" : 150,
+         "Discount" : 15
+         },
+     "metrics" : {
+         "yoymaintenancecost" : 3190.76,
+         "depreciation": 2156.43,
+         "rentalcount" : {
+             "lastweek" : 4,
+             "yeartodate" : 221
+             }
+         }
+    },
+    
+    {
+          "make":"Honda",
+          "model":"A11",
+          "vin": "09AGHY64352JITEG98R",
+         "metadata" : {
+                "Color" : "Brown",
+                 "Notes" : "Parts to replaced"
+         }, 
+          "perdayrent" : {
+            "Price" : 170,
+         "Discount" : 15
+         },
+     "metrics" : {
+         "yoymaintenancecost" : 3390.76,
+         "depreciation": 2756.43,
+         "rentalcount" : {
+             "lastweek" : 4,
+             "yeartodate" : 226
+             }
+         }
+    },
+    {
+          "make":"Audi",
+          "model":"A2",
+          "vin": "09AGHY64352JITEG98Y",
+         "metadata" : {
+                "Color" : "Red",
+                 "Notes" : "service required"
+         }, 
+          "perdayrent" : {
+            "Price" : 150,
+         "Discount" : 15
+         },
+     "metrics" : {
+         "yoymaintenancecost" : 3190.76,
+         "depreciation": 2056.43,
+         "rentalcount" : {
+             "lastweek" : 4,
+             "yeartodate" : 278
+             }
+         }
+    },
+    {
+          "make":"Tesla",
+          "model":"B4",
+          "vin": "09AGHY64352JITEG98K",
+         "metadata" : {
+                "Color" : " Blue",
+                 "Notes" : "Oil changes required"
+         }, 
+          "perdayrent" : {
+            "Price" : 120,
+         "Discount" : 15
+         },
+     "metrics" : {
+         "yoymaintenancecost" : 2900.76,
+         "depreciation": 2656.43,
+         "rentalcount" : {
+             "lastweek" : 4,
+             "yeartodate" : 218
+             }
+         }
+    },
+    {
+          "make":"Honda",
+          "model":"A22",
+          "vin": "09AGHY64352JITEG98T",
+         "metadata" : {
+                "Color" : "Green",
+                 "Notes" : "Break replacement"
+         }, 
+          "perdayrent" : {
+            "Price" : 120,
+         "Discount" : 15
+         },
+     "metrics" : {
+         "yoymaintenancecost" : 2800.00,
+         "depreciation": 2678.43,
+         "rentalcount" : {
+             "lastweek" : 4,
+             "yeartodate" : 254
+             }
+         }
+    },
+    {
+          "make":"Tesla",
+          "model":"A32",
+          "vin": "09AGHY64352JITEG98D",
+         "metadata" : {
+                "Color" : "Metallic Blue",
+                 "Notes" : "Front Mirror not working"
+         }, 
+          "perdayrent" : {
+            "Price" : 155,
+         "Discount" : 15
+         },
+     "metrics" : {
+         "yoymaintenancecost" : 3290.76,
+         "depreciation": 1256.43,
+         "rentalcount" : {
+             "lastweek" : 4,
+             "yeartodate" : 321
+             }
+         }
+    },
+    {
+          "make":"Hyundai",
+          "model":"S2",
+          "vin": "09AGHY64352JITEG98O",
+         "metadata" : {
+                "Color" : "Grey",
+                 "Notes" : "Car wheels replacement"
+         }, 
+          "perdayrent" : {
+            "Price" : 110,
+         "Discount" : 15
+         },
+     "metrics" : {
+         "yoymaintenancecost" : 2190.76,
+         "depreciation": 2556.43,
+         "rentalcount" : {
+             "lastweek" : 4,
+             "yeartodate" : 276
+             }
+         }
+    },
+    {
+          "make":"Tesla",
+          "model":"A2",
+          "vin": "09AGHY64352JITEG98H",
+         "metadata" : {
+                "Color" : "Royal Blue",
+                 "Notes" : "Scratches on the Seats"
+         }, 
+          "perdayrent" : {
+            "Price" : 130,
+         "Discount" : 15
+         },
+     "metrics" : {
+         "yoymaintenancecost" : 2690.76,
+         "depreciation": 2786.43,
+         "rentalcount" : {
+             "lastweek" : 4,
+             "yeartodate" : 289
+             }
+         }
+    }]
+    }
+         
+2020-08-13 02:16:10 INFO  RentalCarsTest 37 - get the status code of response200
+2020-08-13 02:16:10 INFO  RentalCarsTest 40 - Get the response body:{  
+
+ "Car":[{
+          "make":"Audi",
+          "model":"A7",
+          "vin": "09AGHY64352JITEG98K",
+         "metadata" : {
+                "Color" : "Black",
+                 "Notes" : "Scratches on the front side of the car"
+         }, 
+          "perdayrent" : {
+            "Price" : 140,
+         "Discount" : 15
+         },
+     "metrics" : {
+         "yoymaintenancecost" : 2190.76,
+         "depreciation": 2256.43,
+         "rentalcount" : {
+             "lastweek" : 4,
+             "yeartodate" : 221
+             }
+         }
+    },
+    
+     {
+          "make":"Tesla",
+          "model":"A6",
+          "vin": "09AGHY64352JITEG98A",
+         "metadata" : {
+                "Color" : "Blue",
+                 "Notes" : "oil changes required"
+         }, 
+          "perdayrent" : {
+            "Price" : 150,
+         "Discount" : 15
+         },
+     "metrics" : {
+         "yoymaintenancecost" : 3190.76,
+         "depreciation": 2156.43,
+         "rentalcount" : {
+             "lastweek" : 4,
+             "yeartodate" : 221
+             }
+         }
+    },
+    
+    {
+          "make":"Honda",
+          "model":"A11",
+          "vin": "09AGHY64352JITEG98R",
+         "metadata" : {
+                "Color" : "Brown",
+                 "Notes" : "Parts to replaced"
+         }, 
+          "perdayrent" : {
+            "Price" : 170,
+         "Discount" : 15
+         },
+     "metrics" : {
+         "yoymaintenancecost" : 3390.76,
+         "depreciation": 2756.43,
+         "rentalcount" : {
+             "lastweek" : 4,
+             "yeartodate" : 226
+             }
+         }
+    },
+    {
+          "make":"Audi",
+          "model":"A2",
+          "vin": "09AGHY64352JITEG98Y",
+         "metadata" : {
+                "Color" : "Red",
+                 "Notes" : "service required"
+         }, 
+          "perdayrent" : {
+            "Price" : 150,
+         "Discount" : 15
+         },
+     "metrics" : {
+         "yoymaintenancecost" : 3190.76,
+         "depreciation": 2056.43,
+         "rentalcount" : {
+             "lastweek" : 4,
+             "yeartodate" : 278
+             }
+         }
+    },
+    {
+          "make":"Tesla",
+          "model":"B4",
+          "vin": "09AGHY64352JITEG98K",
+         "metadata" : {
+                "Color" : " Blue",
+                 "Notes" : "Oil changes required"
+         }, 
+          "perdayrent" : {
+            "Price" : 120,
+         "Discount" : 15
+         },
+     "metrics" : {
+         "yoymaintenancecost" : 2900.76,
+         "depreciation": 2656.43,
+         "rentalcount" : {
+             "lastweek" : 4,
+             "yeartodate" : 218
+             }
+         }
+    },
+    {
+          "make":"Honda",
+          "model":"A22",
+          "vin": "09AGHY64352JITEG98T",
+         "metadata" : {
+                "Color" : "Green",
+                 "Notes" : "Break replacement"
+         }, 
+          "perdayrent" : {
+            "Price" : 120,
+         "Discount" : 15
+         },
+     "metrics" : {
+         "yoymaintenancecost" : 2800.00,
+         "depreciation": 2678.43,
+         "rentalcount" : {
+             "lastweek" : 4,
+             "yeartodate" : 254
+             }
+         }
+    },
+    {
+          "make":"Tesla",
+          "model":"A32",
+          "vin": "09AGHY64352JITEG98D",
+         "metadata" : {
+                "Color" : "Metallic Blue",
+                 "Notes" : "Front Mirror not working"
+         }, 
+          "perdayrent" : {
+            "Price" : 155,
+         "Discount" : 15
+         },
+     "metrics" : {
+         "yoymaintenancecost" : 3290.76,
+         "depreciation": 1256.43,
+         "rentalcount" : {
+             "lastweek" : 4,
+             "yeartodate" : 321
+             }
+         }
+    },
+    {
+          "make":"Hyundai",
+          "model":"S2",
+          "vin": "09AGHY64352JITEG98O",
+         "metadata" : {
+                "Color" : "Grey",
+                 "Notes" : "Car wheels replacement"
+         }, 
+          "perdayrent" : {
+            "Price" : 110,
+         "Discount" : 15
+         },
+     "metrics" : {
+         "yoymaintenancecost" : 2190.76,
+         "depreciation": 2556.43,
+         "rentalcount" : {
+             "lastweek" : 4,
+             "yeartodate" : 276
+             }
+         }
+    },
+    {
+          "make":"Tesla",
+          "model":"A2",
+          "vin": "09AGHY64352JITEG98H",
+         "metadata" : {
+                "Color" : "Royal Blue",
+                 "Notes" : "Scratches on the Seats"
+         }, 
+          "perdayrent" : {
+            "Price" : 130,
+         "Discount" : 15
+         },
+     "metrics" : {
+         "yoymaintenancecost" : 2690.76,
+         "depreciation": 2786.43,
+         "rentalcount" : {
+             "lastweek" : 4,
+             "yeartodate" : 289
+             }
+         }
+    }]
+    }
+         
+2020-08-13 02:16:10 INFO  RentalCarsTest 58 - Get the status code of response:200
+2020-08-13 02:16:11 INFO  RentalCarsTest 62 - Returns the list of all cars:[Audi, Tesla, Honda, Audi, Tesla, Honda, Tesla, Hyundai, Tesla]
+2020-08-13 02:16:11 INFO  RentalCarsTest 130 - Get the status code of response:200
+2020-08-13 02:16:11 INFO  RentalCarsTest 134 - print perdayrental cost of all cars :[{Discount=15, Price=140}, {Discount=15, Price=150}, {Discount=15, Price=170}, {Discount=15, Price=150}, {Discount=15, Price=120}, {Discount=15, Price=120}, {Discount=15, Price=155}, {Discount=15, Price=110}, {Discount=15, Price=130}]
+2020-08-13 02:16:11 INFO  RentalCarsTest 150 - Returns all cars starting from lowest perdayrent with price only:
+2020-08-13 02:16:11 INFO  RentalCarsTest 157 - Vin : 09AGHY64352JITEG98O----------------> Price :110.0
+2020-08-13 02:16:11 INFO  RentalCarsTest 157 - Vin : 09AGHY64352JITEG98K----------------> Price :120.0
+2020-08-13 02:16:11 INFO  RentalCarsTest 157 - Vin : 09AGHY64352JITEG98T----------------> Price :120.0
+2020-08-13 02:16:11 INFO  RentalCarsTest 157 - Vin : 09AGHY64352JITEG98H----------------> Price :130.0
+2020-08-13 02:16:11 INFO  RentalCarsTest 157 - Vin : 09AGHY64352JITEG98K----------------> Price :140.0
+2020-08-13 02:16:11 INFO  RentalCarsTest 157 - Vin : 09AGHY64352JITEG98A----------------> Price :150.0
+2020-08-13 02:16:11 INFO  RentalCarsTest 157 - Vin : 09AGHY64352JITEG98Y----------------> Price :150.0
+2020-08-13 02:16:11 INFO  RentalCarsTest 157 - Vin : 09AGHY64352JITEG98D----------------> Price :155.0
+2020-08-13 02:16:11 INFO  RentalCarsTest 157 - Vin : 09AGHY64352JITEG98R----------------> Price :170.0
+2020-08-13 02:16:11 INFO  RentalCarsTest 162 - Returns all cars starting from lowest paydayrent with price after discount :
+2020-08-13 02:16:11 INFO  RentalCarsTest 171 - Vin: 09AGHY64352JITEG98O-------------------> PriceAfterDiscount: 93.5
+2020-08-13 02:16:11 INFO  RentalCarsTest 171 - Vin: 09AGHY64352JITEG98K-------------------> PriceAfterDiscount: 102.0
+2020-08-13 02:16:11 INFO  RentalCarsTest 171 - Vin: 09AGHY64352JITEG98T-------------------> PriceAfterDiscount: 102.0
+2020-08-13 02:16:11 INFO  RentalCarsTest 171 - Vin: 09AGHY64352JITEG98H-------------------> PriceAfterDiscount: 110.5
+2020-08-13 02:16:11 INFO  RentalCarsTest 171 - Vin: 09AGHY64352JITEG98K-------------------> PriceAfterDiscount: 119.0
+2020-08-13 02:16:11 INFO  RentalCarsTest 171 - Vin: 09AGHY64352JITEG98A-------------------> PriceAfterDiscount: 127.5
+2020-08-13 02:16:11 INFO  RentalCarsTest 171 - Vin: 09AGHY64352JITEG98Y-------------------> PriceAfterDiscount: 127.5
+2020-08-13 02:16:11 INFO  RentalCarsTest 171 - Vin: 09AGHY64352JITEG98D-------------------> PriceAfterDiscount: 131.75
+2020-08-13 02:16:11 INFO  RentalCarsTest 171 - Vin: 09AGHY64352JITEG98R-------------------> PriceAfterDiscount: 144.5
+2020-08-13 02:16:11 INFO  RentalCarsTest 190 - Get the status code of response:200
+2020-08-13 02:16:11 INFO  RentalCarsTest 198 - Returns each car with year to year maintainacecost plus depreciation:[{yoymaintenancecost=2190.76, rentalcount={lastweek=4, yeartodate=221}, depreciation=2256.43}, {yoymaintenancecost=3190.76, rentalcount={lastweek=4, yeartodate=221}, depreciation=2156.43}, {yoymaintenancecost=3390.76, rentalcount={lastweek=4, yeartodate=226}, depreciation=2756.43}, {yoymaintenancecost=3190.76, rentalcount={lastweek=4, yeartodate=278}, depreciation=2056.43}, {yoymaintenancecost=2900.76, rentalcount={lastweek=4, yeartodate=218}, depreciation=2656.43}, {yoymaintenancecost=2800.0, rentalcount={lastweek=4, yeartodate=254}, depreciation=2678.43}, {yoymaintenancecost=3290.76, rentalcount={lastweek=4, yeartodate=321}, depreciation=1256.43}, {yoymaintenancecost=2190.76, rentalcount={lastweek=4, yeartodate=276}, depreciation=2556.43}, {yoymaintenancecost=2690.76, rentalcount={lastweek=4, yeartodate=289}, depreciation=2786.43}]
+2020-08-13 02:16:12 INFO  RentalCarsTest 220 - Highest Revenue
+2020-08-13 02:16:12 INFO  RentalCarsTest 226 - Vin: 09AGHY64352JITEG98D--------------------->CarREvenue:  37744.56
+2020-08-13 02:16:12 INFO  RentalCarsTest 226 - Vin: 09AGHY64352JITEG98Y--------------------->CarREvenue:  30197.81
+2020-08-13 02:16:12 INFO  RentalCarsTest 226 - Vin: 09AGHY64352JITEG98R--------------------->CarREvenue:  26509.81
+2020-08-13 02:16:12 INFO  RentalCarsTest 226 - Vin: 09AGHY64352JITEG98H--------------------->CarREvenue:  26457.31
+2020-08-13 02:16:12 INFO  RentalCarsTest 226 - Vin: 09AGHY64352JITEG98A--------------------->CarREvenue:  22830.31
+2020-08-13 02:16:12 INFO  RentalCarsTest 226 - Vin: 09AGHY64352JITEG98K--------------------->CarREvenue:  21851.81
+2020-08-13 02:16:12 INFO  RentalCarsTest 226 - Vin: 09AGHY64352JITEG98O--------------------->CarREvenue:  21058.81
+2020-08-13 02:16:12 INFO  RentalCarsTest 226 - Vin: 09AGHY64352JITEG98T--------------------->CarREvenue:  20429.57
+2020-08-13 02:16:12 INFO  RentalCarsTest 226 - Vin: 09AGHY64352JITEG98K--------------------->CarREvenue:  16678.81
+2020-08-13 02:22:10 INFO  RentalCarsTest 35 - Get the response body after parsing as string:{  
+
+ "Car":[{
+          "make":"Audi",
+          "model":"A7",
+          "vin": "09AGHY64352JITEG98K",
+         "metadata" : {
+                "Color" : "Black",
+                 "Notes" : "Scratches on the front side of the car"
+         }, 
+          "perdayrent" : {
+            "Price" : 140,
+         "Discount" : 15
+         },
+     "metrics" : {
+         "yoymaintenancecost" : 2190.76,
+         "depreciation": 2256.43,
+         "rentalcount" : {
+             "lastweek" : 4,
+             "yeartodate" : 221
+             }
+         }
+    },
+    
+     {
+          "make":"Tesla",
+          "model":"A6",
+          "vin": "09AGHY64352JITEG98A",
+         "metadata" : {
+                "Color" : "Blue",
+                 "Notes" : "oil changes required"
+         }, 
+          "perdayrent" : {
+            "Price" : 150,
+         "Discount" : 15
+         },
+     "metrics" : {
+         "yoymaintenancecost" : 3190.76,
+         "depreciation": 2156.43,
+         "rentalcount" : {
+             "lastweek" : 4,
+             "yeartodate" : 221
+             }
+         }
+    },
+    
+    {
+          "make":"Honda",
+          "model":"A11",
+          "vin": "09AGHY64352JITEG98R",
+         "metadata" : {
+                "Color" : "Brown",
+                 "Notes" : "Parts to replaced"
+         }, 
+          "perdayrent" : {
+            "Price" : 170,
+         "Discount" : 15
+         },
+     "metrics" : {
+         "yoymaintenancecost" : 3390.76,
+         "depreciation": 2756.43,
+         "rentalcount" : {
+             "lastweek" : 4,
+             "yeartodate" : 226
+             }
+         }
+    },
+    {
+          "make":"Audi",
+          "model":"A2",
+          "vin": "09AGHY64352JITEG98Y",
+         "metadata" : {
+                "Color" : "Red",
+                 "Notes" : "service required"
+         }, 
+          "perdayrent" : {
+            "Price" : 150,
+         "Discount" : 15
+         },
+     "metrics" : {
+         "yoymaintenancecost" : 3190.76,
+         "depreciation": 2056.43,
+         "rentalcount" : {
+             "lastweek" : 4,
+             "yeartodate" : 278
+             }
+         }
+    },
+    {
+          "make":"Tesla",
+          "model":"B4",
+          "vin": "09AGHY64352JITEG98K",
+         "metadata" : {
+                "Color" : "Blue",
+                 "Notes" : "Oil changes required"
+         }, 
+          "perdayrent" : {
+            "Price" : 120,
+         "Discount" : 15
+         },
+     "metrics" : {
+         "yoymaintenancecost" : 2900.76,
+         "depreciation": 2656.43,
+         "rentalcount" : {
+             "lastweek" : 4,
+             "yeartodate" : 218
+             }
+         }
+    },
+    {
+          "make":"Honda",
+          "model":"A22",
+          "vin": "09AGHY64352JITEG98T",
+         "metadata" : {
+                "Color" : "Green",
+                 "Notes" : "Break replacement"
+         }, 
+          "perdayrent" : {
+            "Price" : 120,
+         "Discount" : 15
+         },
+     "metrics" : {
+         "yoymaintenancecost" : 2800.00,
+         "depreciation": 2678.43,
+         "rentalcount" : {
+             "lastweek" : 4,
+             "yeartodate" : 254
+             }
+         }
+    },
+    {
+          "make":"Tesla",
+          "model":"A32",
+          "vin": "09AGHY64352JITEG98D",
+         "metadata" : {
+                "Color" : "Metallic Blue",
+                 "Notes" : "Front Mirror not working"
+         }, 
+          "perdayrent" : {
+            "Price" : 155,
+         "Discount" : 15
+         },
+     "metrics" : {
+         "yoymaintenancecost" : 3290.76,
+         "depreciation": 1256.43,
+         "rentalcount" : {
+             "lastweek" : 4,
+             "yeartodate" : 321
+             }
+         }
+    },
+    {
+          "make":"Hyundai",
+          "model":"S2",
+          "vin": "09AGHY64352JITEG98O",
+         "metadata" : {
+                "Color" : "Grey",
+                 "Notes" : "Car wheels replacement"
+         }, 
+          "perdayrent" : {
+            "Price" : 110,
+         "Discount" : 15
+         },
+     "metrics" : {
+         "yoymaintenancecost" : 2190.76,
+         "depreciation": 2556.43,
+         "rentalcount" : {
+             "lastweek" : 4,
+             "yeartodate" : 276
+             }
+         }
+    },
+    {
+          "make":"Tesla",
+          "model":"A2",
+          "vin": "09AGHY64352JITEG98H",
+         "metadata" : {
+                "Color" : "Royal Blue",
+                 "Notes" : "Scratches on the Seats"
+         }, 
+          "perdayrent" : {
+            "Price" : 130,
+         "Discount" : 15
+         },
+     "metrics" : {
+         "yoymaintenancecost" : 2690.76,
+         "depreciation": 2786.43,
+         "rentalcount" : {
+             "lastweek" : 4,
+             "yeartodate" : 289
+             }
+         }
+    }]
+    }
+         
+2020-08-13 02:22:10 INFO  RentalCarsTest 37 - get the status code of response200
+2020-08-13 02:22:10 INFO  RentalCarsTest 40 - Get the response body:{  
+
+ "Car":[{
+          "make":"Audi",
+          "model":"A7",
+          "vin": "09AGHY64352JITEG98K",
+         "metadata" : {
+                "Color" : "Black",
+                 "Notes" : "Scratches on the front side of the car"
+         }, 
+          "perdayrent" : {
+            "Price" : 140,
+         "Discount" : 15
+         },
+     "metrics" : {
+         "yoymaintenancecost" : 2190.76,
+         "depreciation": 2256.43,
+         "rentalcount" : {
+             "lastweek" : 4,
+             "yeartodate" : 221
+             }
+         }
+    },
+    
+     {
+          "make":"Tesla",
+          "model":"A6",
+          "vin": "09AGHY64352JITEG98A",
+         "metadata" : {
+                "Color" : "Blue",
+                 "Notes" : "oil changes required"
+         }, 
+          "perdayrent" : {
+            "Price" : 150,
+         "Discount" : 15
+         },
+     "metrics" : {
+         "yoymaintenancecost" : 3190.76,
+         "depreciation": 2156.43,
+         "rentalcount" : {
+             "lastweek" : 4,
+             "yeartodate" : 221
+             }
+         }
+    },
+    
+    {
+          "make":"Honda",
+          "model":"A11",
+          "vin": "09AGHY64352JITEG98R",
+         "metadata" : {
+                "Color" : "Brown",
+                 "Notes" : "Parts to replaced"
+         }, 
+          "perdayrent" : {
+            "Price" : 170,
+         "Discount" : 15
+         },
+     "metrics" : {
+         "yoymaintenancecost" : 3390.76,
+         "depreciation": 2756.43,
+         "rentalcount" : {
+             "lastweek" : 4,
+             "yeartodate" : 226
+             }
+         }
+    },
+    {
+          "make":"Audi",
+          "model":"A2",
+          "vin": "09AGHY64352JITEG98Y",
+         "metadata" : {
+                "Color" : "Red",
+                 "Notes" : "service required"
+         }, 
+          "perdayrent" : {
+            "Price" : 150,
+         "Discount" : 15
+         },
+     "metrics" : {
+         "yoymaintenancecost" : 3190.76,
+         "depreciation": 2056.43,
+         "rentalcount" : {
+             "lastweek" : 4,
+             "yeartodate" : 278
+             }
+         }
+    },
+    {
+          "make":"Tesla",
+          "model":"B4",
+          "vin": "09AGHY64352JITEG98K",
+         "metadata" : {
+                "Color" : "Blue",
+                 "Notes" : "Oil changes required"
+         }, 
+          "perdayrent" : {
+            "Price" : 120,
+         "Discount" : 15
+         },
+     "metrics" : {
+         "yoymaintenancecost" : 2900.76,
+         "depreciation": 2656.43,
+         "rentalcount" : {
+             "lastweek" : 4,
+             "yeartodate" : 218
+             }
+         }
+    },
+    {
+          "make":"Honda",
+          "model":"A22",
+          "vin": "09AGHY64352JITEG98T",
+         "metadata" : {
+                "Color" : "Green",
+                 "Notes" : "Break replacement"
+         }, 
+          "perdayrent" : {
+            "Price" : 120,
+         "Discount" : 15
+         },
+     "metrics" : {
+         "yoymaintenancecost" : 2800.00,
+         "depreciation": 2678.43,
+         "rentalcount" : {
+             "lastweek" : 4,
+             "yeartodate" : 254
+             }
+         }
+    },
+    {
+          "make":"Tesla",
+          "model":"A32",
+          "vin": "09AGHY64352JITEG98D",
+         "metadata" : {
+                "Color" : "Metallic Blue",
+                 "Notes" : "Front Mirror not working"
+         }, 
+          "perdayrent" : {
+            "Price" : 155,
+         "Discount" : 15
+         },
+     "metrics" : {
+         "yoymaintenancecost" : 3290.76,
+         "depreciation": 1256.43,
+         "rentalcount" : {
+             "lastweek" : 4,
+             "yeartodate" : 321
+             }
+         }
+    },
+    {
+          "make":"Hyundai",
+          "model":"S2",
+          "vin": "09AGHY64352JITEG98O",
+         "metadata" : {
+                "Color" : "Grey",
+                 "Notes" : "Car wheels replacement"
+         }, 
+          "perdayrent" : {
+            "Price" : 110,
+         "Discount" : 15
+         },
+     "metrics" : {
+         "yoymaintenancecost" : 2190.76,
+         "depreciation": 2556.43,
+         "rentalcount" : {
+             "lastweek" : 4,
+             "yeartodate" : 276
+             }
+         }
+    },
+    {
+          "make":"Tesla",
+          "model":"A2",
+          "vin": "09AGHY64352JITEG98H",
+         "metadata" : {
+                "Color" : "Royal Blue",
+                 "Notes" : "Scratches on the Seats"
+         }, 
+          "perdayrent" : {
+            "Price" : 130,
+         "Discount" : 15
+         },
+     "metrics" : {
+         "yoymaintenancecost" : 2690.76,
+         "depreciation": 2786.43,
+         "rentalcount" : {
+             "lastweek" : 4,
+             "yeartodate" : 289
+             }
+         }
+    }]
+    }
+         
+2020-08-13 02:22:10 INFO  RentalCarsTest 58 - Get the status code of response:200
+2020-08-13 02:22:10 INFO  RentalCarsTest 62 - Returns the list of all cars:[Audi, Tesla, Honda, Audi, Tesla, Honda, Tesla, Hyundai, Tesla]
+2020-08-13 02:22:10 INFO  RentalCarsTest 71 - printing the car make that equals: Tesla
+2020-08-13 02:22:10 INFO  RentalCarsTest 74 - printing only Teslaof color :Blue
+2020-08-13 02:22:10 INFO  RentalCarsTest 80 - printing only notes of BlueTesla :oil changes required
+2020-08-13 02:22:10 INFO  RentalCarsTest 71 - printing the car make that equals: Tesla
+2020-08-13 02:22:10 INFO  RentalCarsTest 74 - printing only Teslaof color :Blue
+2020-08-13 02:22:10 INFO  RentalCarsTest 80 - printing only notes of BlueTesla :Oil changes required
+2020-08-13 02:22:10 INFO  RentalCarsTest 130 - Get the status code of response:200
+2020-08-13 02:22:10 INFO  RentalCarsTest 134 - print perdayrental cost of all cars :[{Discount=15, Price=140}, {Discount=15, Price=150}, {Discount=15, Price=170}, {Discount=15, Price=150}, {Discount=15, Price=120}, {Discount=15, Price=120}, {Discount=15, Price=155}, {Discount=15, Price=110}, {Discount=15, Price=130}]
+2020-08-13 02:22:11 INFO  RentalCarsTest 150 - Returns all cars starting from lowest perdayrent with price only:
+2020-08-13 02:22:11 INFO  RentalCarsTest 157 - Vin : 09AGHY64352JITEG98O----------------> Price :110.0
+2020-08-13 02:22:11 INFO  RentalCarsTest 157 - Vin : 09AGHY64352JITEG98K----------------> Price :120.0
+2020-08-13 02:22:11 INFO  RentalCarsTest 157 - Vin : 09AGHY64352JITEG98T----------------> Price :120.0
+2020-08-13 02:22:11 INFO  RentalCarsTest 157 - Vin : 09AGHY64352JITEG98H----------------> Price :130.0
+2020-08-13 02:22:11 INFO  RentalCarsTest 157 - Vin : 09AGHY64352JITEG98K----------------> Price :140.0
+2020-08-13 02:22:11 INFO  RentalCarsTest 157 - Vin : 09AGHY64352JITEG98A----------------> Price :150.0
+2020-08-13 02:22:11 INFO  RentalCarsTest 157 - Vin : 09AGHY64352JITEG98Y----------------> Price :150.0
+2020-08-13 02:22:11 INFO  RentalCarsTest 157 - Vin : 09AGHY64352JITEG98D----------------> Price :155.0
+2020-08-13 02:22:11 INFO  RentalCarsTest 157 - Vin : 09AGHY64352JITEG98R----------------> Price :170.0
+2020-08-13 02:22:11 INFO  RentalCarsTest 162 - Returns all cars starting from lowest paydayrent with price after discount :
+2020-08-13 02:22:11 INFO  RentalCarsTest 171 - Vin: 09AGHY64352JITEG98O-------------------> PriceAfterDiscount: 93.5
+2020-08-13 02:22:11 INFO  RentalCarsTest 171 - Vin: 09AGHY64352JITEG98K-------------------> PriceAfterDiscount: 102.0
+2020-08-13 02:22:11 INFO  RentalCarsTest 171 - Vin: 09AGHY64352JITEG98T-------------------> PriceAfterDiscount: 102.0
+2020-08-13 02:22:11 INFO  RentalCarsTest 171 - Vin: 09AGHY64352JITEG98H-------------------> PriceAfterDiscount: 110.5
+2020-08-13 02:22:11 INFO  RentalCarsTest 171 - Vin: 09AGHY64352JITEG98K-------------------> PriceAfterDiscount: 119.0
+2020-08-13 02:22:11 INFO  RentalCarsTest 171 - Vin: 09AGHY64352JITEG98A-------------------> PriceAfterDiscount: 127.5
+2020-08-13 02:22:11 INFO  RentalCarsTest 171 - Vin: 09AGHY64352JITEG98Y-------------------> PriceAfterDiscount: 127.5
+2020-08-13 02:22:11 INFO  RentalCarsTest 171 - Vin: 09AGHY64352JITEG98D-------------------> PriceAfterDiscount: 131.75
+2020-08-13 02:22:11 INFO  RentalCarsTest 171 - Vin: 09AGHY64352JITEG98R-------------------> PriceAfterDiscount: 144.5
+2020-08-13 02:22:11 INFO  RentalCarsTest 190 - Get the status code of response:200
+2020-08-13 02:22:11 INFO  RentalCarsTest 198 - Returns each car with year to year maintainacecost plus depreciation:[{yoymaintenancecost=2190.76, rentalcount={lastweek=4, yeartodate=221}, depreciation=2256.43}, {yoymaintenancecost=3190.76, rentalcount={lastweek=4, yeartodate=221}, depreciation=2156.43}, {yoymaintenancecost=3390.76, rentalcount={lastweek=4, yeartodate=226}, depreciation=2756.43}, {yoymaintenancecost=3190.76, rentalcount={lastweek=4, yeartodate=278}, depreciation=2056.43}, {yoymaintenancecost=2900.76, rentalcount={lastweek=4, yeartodate=218}, depreciation=2656.43}, {yoymaintenancecost=2800.0, rentalcount={lastweek=4, yeartodate=254}, depreciation=2678.43}, {yoymaintenancecost=3290.76, rentalcount={lastweek=4, yeartodate=321}, depreciation=1256.43}, {yoymaintenancecost=2190.76, rentalcount={lastweek=4, yeartodate=276}, depreciation=2556.43}, {yoymaintenancecost=2690.76, rentalcount={lastweek=4, yeartodate=289}, depreciation=2786.43}]
+2020-08-13 02:22:11 INFO  RentalCarsTest 220 - Highest Revenue
+2020-08-13 02:22:11 INFO  RentalCarsTest 226 - Vin: 09AGHY64352JITEG98D--------------------->CarREvenue:  37744.56
+2020-08-13 02:22:11 INFO  RentalCarsTest 226 - Vin: 09AGHY64352JITEG98Y--------------------->CarREvenue:  30197.81
+2020-08-13 02:22:11 INFO  RentalCarsTest 226 - Vin: 09AGHY64352JITEG98R--------------------->CarREvenue:  26509.81
+2020-08-13 02:22:11 INFO  RentalCarsTest 226 - Vin: 09AGHY64352JITEG98H--------------------->CarREvenue:  26457.31
+2020-08-13 02:22:11 INFO  RentalCarsTest 226 - Vin: 09AGHY64352JITEG98A--------------------->CarREvenue:  22830.31
+2020-08-13 02:22:11 INFO  RentalCarsTest 226 - Vin: 09AGHY64352JITEG98K--------------------->CarREvenue:  21851.81
+2020-08-13 02:22:11 INFO  RentalCarsTest 226 - Vin: 09AGHY64352JITEG98O--------------------->CarREvenue:  21058.81
+2020-08-13 02:22:11 INFO  RentalCarsTest 226 - Vin: 09AGHY64352JITEG98T--------------------->CarREvenue:  20429.57
+2020-08-13 02:22:11 INFO  RentalCarsTest 226 - Vin: 09AGHY64352JITEG98K--------------------->CarREvenue:  16678.81
+2020-08-13 08:29:07 INFO  RentalCarsTest 35 - Get the response body after parsing as string:{  
+
+ "Car":[{
+          "make":"Audi",
+          "model":"A7",
+          "vin": "09AGHY64352JITEG98K",
+         "metadata" : {
+                "Color" : "Black",
+                 "Notes" : "Scratches on the front side of the car"
+         }, 
+          "perdayrent" : {
+            "Price" : 140,
+         "Discount" : 15
+         },
+     "metrics" : {
+         "yoymaintenancecost" : 2190.76,
+         "depreciation": 2256.43,
+         "rentalcount" : {
+             "lastweek" : 4,
+             "yeartodate" : 221
+             }
+         }
+    },
+    
+     {
+          "make":"Tesla",
+          "model":"A6",
+          "vin": "09AGHY64352JITEG98A",
+         "metadata" : {
+                "Color" : "Blue",
+                 "Notes" : "oil changes required"
+         }, 
+          "perdayrent" : {
+            "Price" : 150,
+         "Discount" : 15
+         },
+     "metrics" : {
+         "yoymaintenancecost" : 3190.76,
+         "depreciation": 2156.43,
+         "rentalcount" : {
+             "lastweek" : 4,
+             "yeartodate" : 221
+             }
+         }
+    },
+    
+    {
+          "make":"Honda",
+          "model":"A11",
+          "vin": "09AGHY64352JITEG98R",
+         "metadata" : {
+                "Color" : "Brown",
+                 "Notes" : "Parts to replaced"
+         }, 
+          "perdayrent" : {
+            "Price" : 170,
+         "Discount" : 15
+         },
+     "metrics" : {
+         "yoymaintenancecost" : 3390.76,
+         "depreciation": 2756.43,
+         "rentalcount" : {
+             "lastweek" : 4,
+             "yeartodate" : 226
+             }
+         }
+    },
+    {
+          "make":"Audi",
+          "model":"A2",
+          "vin": "09AGHY64352JITEG98Y",
+         "metadata" : {
+                "Color" : "Red",
+                 "Notes" : "service required"
+         }, 
+          "perdayrent" : {
+            "Price" : 150,
+         "Discount" : 15
+         },
+     "metrics" : {
+         "yoymaintenancecost" : 3190.76,
+         "depreciation": 2056.43,
+         "rentalcount" : {
+             "lastweek" : 4,
+             "yeartodate" : 278
+             }
+         }
+    },
+    {
+          "make":"Tesla",
+          "model":"B4",
+          "vin": "09AGHY64352JITEG98K",
+         "metadata" : {
+                "Color" : "Blue",
+                 "Notes" : "Oil changes required"
+         }, 
+          "perdayrent" : {
+            "Price" : 120,
+         "Discount" : 15
+         },
+     "metrics" : {
+         "yoymaintenancecost" : 2900.76,
+         "depreciation": 2656.43,
+         "rentalcount" : {
+             "lastweek" : 4,
+             "yeartodate" : 218
+             }
+         }
+    },
+    {
+          "make":"Honda",
+          "model":"A22",
+          "vin": "09AGHY64352JITEG98T",
+         "metadata" : {
+                "Color" : "Green",
+                 "Notes" : "Break replacement"
+         }, 
+          "perdayrent" : {
+            "Price" : 120,
+         "Discount" : 15
+         },
+     "metrics" : {
+         "yoymaintenancecost" : 2800.00,
+         "depreciation": 2678.43,
+         "rentalcount" : {
+             "lastweek" : 4,
+             "yeartodate" : 254
+             }
+         }
+    },
+    {
+          "make":"Tesla",
+          "model":"A32",
+          "vin": "09AGHY64352JITEG98D",
+         "metadata" : {
+                "Color" : "Metallic Blue",
+                 "Notes" : "Front Mirror not working"
+         }, 
+          "perdayrent" : {
+            "Price" : 155,
+         "Discount" : 15
+         },
+     "metrics" : {
+         "yoymaintenancecost" : 3290.76,
+         "depreciation": 1256.43,
+         "rentalcount" : {
+             "lastweek" : 4,
+             "yeartodate" : 321
+             }
+         }
+    },
+    {
+          "make":"Hyundai",
+          "model":"S2",
+          "vin": "09AGHY64352JITEG98O",
+         "metadata" : {
+                "Color" : "Grey",
+                 "Notes" : "Car wheels replacement"
+         }, 
+          "perdayrent" : {
+            "Price" : 110,
+         "Discount" : 15
+         },
+     "metrics" : {
+         "yoymaintenancecost" : 2190.76,
+         "depreciation": 2556.43,
+         "rentalcount" : {
+             "lastweek" : 4,
+             "yeartodate" : 276
+             }
+         }
+    },
+    {
+          "make":"Tesla",
+          "model":"A2",
+          "vin": "09AGHY64352JITEG98H",
+         "metadata" : {
+                "Color" : "Royal Blue",
+                 "Notes" : "Scratches on the Seats"
+         }, 
+          "perdayrent" : {
+            "Price" : 130,
+         "Discount" : 15
+         },
+     "metrics" : {
+         "yoymaintenancecost" : 2690.76,
+         "depreciation": 2786.43,
+         "rentalcount" : {
+             "lastweek" : 4,
+             "yeartodate" : 289
+             }
+         }
+    }]
+    }
+         
+2020-08-13 08:29:08 INFO  RentalCarsTest 37 - get the status code of response200
+2020-08-13 08:29:08 INFO  RentalCarsTest 40 - Get the response body:{  
+
+ "Car":[{
+          "make":"Audi",
+          "model":"A7",
+          "vin": "09AGHY64352JITEG98K",
+         "metadata" : {
+                "Color" : "Black",
+                 "Notes" : "Scratches on the front side of the car"
+         }, 
+          "perdayrent" : {
+            "Price" : 140,
+         "Discount" : 15
+         },
+     "metrics" : {
+         "yoymaintenancecost" : 2190.76,
+         "depreciation": 2256.43,
+         "rentalcount" : {
+             "lastweek" : 4,
+             "yeartodate" : 221
+             }
+         }
+    },
+    
+     {
+          "make":"Tesla",
+          "model":"A6",
+          "vin": "09AGHY64352JITEG98A",
+         "metadata" : {
+                "Color" : "Blue",
+                 "Notes" : "oil changes required"
+         }, 
+          "perdayrent" : {
+            "Price" : 150,
+         "Discount" : 15
+         },
+     "metrics" : {
+         "yoymaintenancecost" : 3190.76,
+         "depreciation": 2156.43,
+         "rentalcount" : {
+             "lastweek" : 4,
+             "yeartodate" : 221
+             }
+         }
+    },
+    
+    {
+          "make":"Honda",
+          "model":"A11",
+          "vin": "09AGHY64352JITEG98R",
+         "metadata" : {
+                "Color" : "Brown",
+                 "Notes" : "Parts to replaced"
+         }, 
+          "perdayrent" : {
+            "Price" : 170,
+         "Discount" : 15
+         },
+     "metrics" : {
+         "yoymaintenancecost" : 3390.76,
+         "depreciation": 2756.43,
+         "rentalcount" : {
+             "lastweek" : 4,
+             "yeartodate" : 226
+             }
+         }
+    },
+    {
+          "make":"Audi",
+          "model":"A2",
+          "vin": "09AGHY64352JITEG98Y",
+         "metadata" : {
+                "Color" : "Red",
+                 "Notes" : "service required"
+         }, 
+          "perdayrent" : {
+            "Price" : 150,
+         "Discount" : 15
+         },
+     "metrics" : {
+         "yoymaintenancecost" : 3190.76,
+         "depreciation": 2056.43,
+         "rentalcount" : {
+             "lastweek" : 4,
+             "yeartodate" : 278
+             }
+         }
+    },
+    {
+          "make":"Tesla",
+          "model":"B4",
+          "vin": "09AGHY64352JITEG98K",
+         "metadata" : {
+                "Color" : "Blue",
+                 "Notes" : "Oil changes required"
+         }, 
+          "perdayrent" : {
+            "Price" : 120,
+         "Discount" : 15
+         },
+     "metrics" : {
+         "yoymaintenancecost" : 2900.76,
+         "depreciation": 2656.43,
+         "rentalcount" : {
+             "lastweek" : 4,
+             "yeartodate" : 218
+             }
+         }
+    },
+    {
+          "make":"Honda",
+          "model":"A22",
+          "vin": "09AGHY64352JITEG98T",
+         "metadata" : {
+                "Color" : "Green",
+                 "Notes" : "Break replacement"
+         }, 
+          "perdayrent" : {
+            "Price" : 120,
+         "Discount" : 15
+         },
+     "metrics" : {
+         "yoymaintenancecost" : 2800.00,
+         "depreciation": 2678.43,
+         "rentalcount" : {
+             "lastweek" : 4,
+             "yeartodate" : 254
+             }
+         }
+    },
+    {
+          "make":"Tesla",
+          "model":"A32",
+          "vin": "09AGHY64352JITEG98D",
+         "metadata" : {
+                "Color" : "Metallic Blue",
+                 "Notes" : "Front Mirror not working"
+         }, 
+          "perdayrent" : {
+            "Price" : 155,
+         "Discount" : 15
+         },
+     "metrics" : {
+         "yoymaintenancecost" : 3290.76,
+         "depreciation": 1256.43,
+         "rentalcount" : {
+             "lastweek" : 4,
+             "yeartodate" : 321
+             }
+         }
+    },
+    {
+          "make":"Hyundai",
+          "model":"S2",
+          "vin": "09AGHY64352JITEG98O",
+         "metadata" : {
+                "Color" : "Grey",
+                 "Notes" : "Car wheels replacement"
+         }, 
+          "perdayrent" : {
+            "Price" : 110,
+         "Discount" : 15
+         },
+     "metrics" : {
+         "yoymaintenancecost" : 2190.76,
+         "depreciation": 2556.43,
+         "rentalcount" : {
+             "lastweek" : 4,
+             "yeartodate" : 276
+             }
+         }
+    },
+    {
+          "make":"Tesla",
+          "model":"A2",
+          "vin": "09AGHY64352JITEG98H",
+         "metadata" : {
+                "Color" : "Royal Blue",
+                 "Notes" : "Scratches on the Seats"
+         }, 
+          "perdayrent" : {
+            "Price" : 130,
+         "Discount" : 15
+         },
+     "metrics" : {
+         "yoymaintenancecost" : 2690.76,
+         "depreciation": 2786.43,
+         "rentalcount" : {
+             "lastweek" : 4,
+             "yeartodate" : 289
+             }
+         }
+    }]
+    }
+         
+2020-08-13 08:29:08 INFO  RentalCarsTest 58 - Get the status code of response:200
+2020-08-13 08:29:08 INFO  RentalCarsTest 62 - Returns the list of all cars:[Audi, Tesla, Honda, Audi, Tesla, Honda, Tesla, Hyundai, Tesla]
+2020-08-13 08:29:08 INFO  RentalCarsTest 71 - printing the car make that equals: Tesla
+2020-08-13 08:29:08 INFO  RentalCarsTest 74 - printing only Teslaof color :Blue
+2020-08-13 08:29:08 INFO  RentalCarsTest 80 - printing only notes of BlueTesla :oil changes required
+2020-08-13 08:29:08 INFO  RentalCarsTest 71 - printing the car make that equals: Tesla
+2020-08-13 08:29:08 INFO  RentalCarsTest 74 - printing only Teslaof color :Blue
+2020-08-13 08:29:08 INFO  RentalCarsTest 80 - printing only notes of BlueTesla :Oil changes required
+2020-08-13 08:29:08 INFO  RentalCarsTest 130 - Get the status code of response:200
+2020-08-13 08:29:08 INFO  RentalCarsTest 134 - print perdayrental cost of all cars :[{Discount=15, Price=140}, {Discount=15, Price=150}, {Discount=15, Price=170}, {Discount=15, Price=150}, {Discount=15, Price=120}, {Discount=15, Price=120}, {Discount=15, Price=155}, {Discount=15, Price=110}, {Discount=15, Price=130}]
+2020-08-13 08:29:09 INFO  RentalCarsTest 150 - Returns all cars starting from lowest perdayrent with price only:
+2020-08-13 08:29:09 INFO  RentalCarsTest 157 - Vin : 09AGHY64352JITEG98O----------------> Price :110.0
+2020-08-13 08:29:09 INFO  RentalCarsTest 157 - Vin : 09AGHY64352JITEG98K----------------> Price :120.0
+2020-08-13 08:29:09 INFO  RentalCarsTest 157 - Vin : 09AGHY64352JITEG98T----------------> Price :120.0
+2020-08-13 08:29:09 INFO  RentalCarsTest 157 - Vin : 09AGHY64352JITEG98H----------------> Price :130.0
+2020-08-13 08:29:09 INFO  RentalCarsTest 157 - Vin : 09AGHY64352JITEG98K----------------> Price :140.0
+2020-08-13 08:29:09 INFO  RentalCarsTest 157 - Vin : 09AGHY64352JITEG98A----------------> Price :150.0
+2020-08-13 08:29:09 INFO  RentalCarsTest 157 - Vin : 09AGHY64352JITEG98Y----------------> Price :150.0
+2020-08-13 08:29:09 INFO  RentalCarsTest 157 - Vin : 09AGHY64352JITEG98D----------------> Price :155.0
+2020-08-13 08:29:09 INFO  RentalCarsTest 157 - Vin : 09AGHY64352JITEG98R----------------> Price :170.0
+2020-08-13 08:29:09 INFO  RentalCarsTest 162 - Returns all cars starting from lowest paydayrent with price after discount :
+2020-08-13 08:29:09 INFO  RentalCarsTest 171 - Vin: 09AGHY64352JITEG98O-------------------> PriceAfterDiscount: 93.5
+2020-08-13 08:29:09 INFO  RentalCarsTest 171 - Vin: 09AGHY64352JITEG98K-------------------> PriceAfterDiscount: 102.0
+2020-08-13 08:29:09 INFO  RentalCarsTest 171 - Vin: 09AGHY64352JITEG98T-------------------> PriceAfterDiscount: 102.0
+2020-08-13 08:29:09 INFO  RentalCarsTest 171 - Vin: 09AGHY64352JITEG98H-------------------> PriceAfterDiscount: 110.5
+2020-08-13 08:29:09 INFO  RentalCarsTest 171 - Vin: 09AGHY64352JITEG98K-------------------> PriceAfterDiscount: 119.0
+2020-08-13 08:29:09 INFO  RentalCarsTest 171 - Vin: 09AGHY64352JITEG98A-------------------> PriceAfterDiscount: 127.5
+2020-08-13 08:29:09 INFO  RentalCarsTest 171 - Vin: 09AGHY64352JITEG98Y-------------------> PriceAfterDiscount: 127.5
+2020-08-13 08:29:09 INFO  RentalCarsTest 171 - Vin: 09AGHY64352JITEG98D-------------------> PriceAfterDiscount: 131.75
+2020-08-13 08:29:09 INFO  RentalCarsTest 171 - Vin: 09AGHY64352JITEG98R-------------------> PriceAfterDiscount: 144.5
+2020-08-13 08:29:09 INFO  RentalCarsTest 190 - Get the status code of response:200
+2020-08-13 08:29:09 INFO  RentalCarsTest 198 - Returns each car with year to year maintainacecost plus depreciation:[{yoymaintenancecost=2190.76, rentalcount={lastweek=4, yeartodate=221}, depreciation=2256.43}, {yoymaintenancecost=3190.76, rentalcount={lastweek=4, yeartodate=221}, depreciation=2156.43}, {yoymaintenancecost=3390.76, rentalcount={lastweek=4, yeartodate=226}, depreciation=2756.43}, {yoymaintenancecost=3190.76, rentalcount={lastweek=4, yeartodate=278}, depreciation=2056.43}, {yoymaintenancecost=2900.76, rentalcount={lastweek=4, yeartodate=218}, depreciation=2656.43}, {yoymaintenancecost=2800.0, rentalcount={lastweek=4, yeartodate=254}, depreciation=2678.43}, {yoymaintenancecost=3290.76, rentalcount={lastweek=4, yeartodate=321}, depreciation=1256.43}, {yoymaintenancecost=2190.76, rentalcount={lastweek=4, yeartodate=276}, depreciation=2556.43}, {yoymaintenancecost=2690.76, rentalcount={lastweek=4, yeartodate=289}, depreciation=2786.43}]
+2020-08-13 08:29:09 INFO  RentalCarsTest 220 - Highest Revenue
+2020-08-13 08:29:09 INFO  RentalCarsTest 226 - Vin: 09AGHY64352JITEG98D--------------------->CarREvenue:  37744.56
+2020-08-13 08:29:09 INFO  RentalCarsTest 226 - Vin: 09AGHY64352JITEG98Y--------------------->CarREvenue:  30197.81
+2020-08-13 08:29:09 INFO  RentalCarsTest 226 - Vin: 09AGHY64352JITEG98R--------------------->CarREvenue:  26509.81
+2020-08-13 08:29:09 INFO  RentalCarsTest 226 - Vin: 09AGHY64352JITEG98H--------------------->CarREvenue:  26457.31
+2020-08-13 08:29:09 INFO  RentalCarsTest 226 - Vin: 09AGHY64352JITEG98A--------------------->CarREvenue:  22830.31
+2020-08-13 08:29:09 INFO  RentalCarsTest 226 - Vin: 09AGHY64352JITEG98K--------------------->CarREvenue:  21851.81
+2020-08-13 08:29:09 INFO  RentalCarsTest 226 - Vin: 09AGHY64352JITEG98O--------------------->CarREvenue:  21058.81
+2020-08-13 08:29:09 INFO  RentalCarsTest 226 - Vin: 09AGHY64352JITEG98T--------------------->CarREvenue:  20429.57
+2020-08-13 08:29:09 INFO  RentalCarsTest 226 - Vin: 09AGHY64352JITEG98K--------------------->CarREvenue:  16678.81
+2020-08-15 00:03:22 INFO  RentalCarsTest 35 - Get the response body after parsing as string:{  
+
+ "Car":[{
+          "make":"Audi",
+          "model":"A7",
+          "vin": "09AGHY64352JITEG98K",
+         "metadata" : {
+                "Color" : "Black",
+                 "Notes" : "Scratches on the front side of the car"
+         }, 
+          "perdayrent" : {
+            "Price" : 140,
+         "Discount" : 15
+         },
+     "metrics" : {
+         "yoymaintenancecost" : 2190.76,
+         "depreciation": 2256.43,
+         "rentalcount" : {
+             "lastweek" : 4,
+             "yeartodate" : 221
+             }
+         }
+    },
+    
+     {
+          "make":"Tesla",
+          "model":"A6",
+          "vin": "09AGHY64352JITEG98A",
+         "metadata" : {
+                "Color" : "Blue",
+                 "Notes" : "oil changes required"
+         }, 
+          "perdayrent" : {
+            "Price" : 150,
+         "Discount" : 15
+         },
+     "metrics" : {
+         "yoymaintenancecost" : 3190.76,
+         "depreciation": 2156.43,
+         "rentalcount" : {
+             "lastweek" : 4,
+             "yeartodate" : 221
+             }
+         }
+    },
+    
+    {
+          "make":"Honda",
+          "model":"A11",
+          "vin": "09AGHY64352JITEG98R",
+         "metadata" : {
+                "Color" : "Brown",
+                 "Notes" : "Parts to replaced"
+         }, 
+          "perdayrent" : {
+            "Price" : 170,
+         "Discount" : 15
+         },
+     "metrics" : {
+         "yoymaintenancecost" : 3390.76,
+         "depreciation": 2756.43,
+         "rentalcount" : {
+             "lastweek" : 4,
+             "yeartodate" : 226
+             }
+         }
+    },
+    {
+          "make":"Audi",
+          "model":"A2",
+          "vin": "09AGHY64352JITEG98Y",
+         "metadata" : {
+                "Color" : "Red",
+                 "Notes" : "service required"
+         }, 
+          "perdayrent" : {
+            "Price" : 150,
+         "Discount" : 15
+         },
+     "metrics" : {
+         "yoymaintenancecost" : 3190.76,
+         "depreciation": 2056.43,
+         "rentalcount" : {
+             "lastweek" : 4,
+             "yeartodate" : 278
+             }
+         }
+    },
+    {
+          "make":"Tesla",
+          "model":"B4",
+          "vin": "09AGHY64352JITEG98K",
+         "metadata" : {
+                "Color" : "Blue",
+                 "Notes" : "Oil changes required"
+         }, 
+          "perdayrent" : {
+            "Price" : 120,
+         "Discount" : 15
+         },
+     "metrics" : {
+         "yoymaintenancecost" : 2900.76,
+         "depreciation": 2656.43,
+         "rentalcount" : {
+             "lastweek" : 4,
+             "yeartodate" : 218
+             }
+         }
+    },
+    {
+          "make":"Honda",
+          "model":"A22",
+          "vin": "09AGHY64352JITEG98T",
+         "metadata" : {
+                "Color" : "Green",
+                 "Notes" : "Break replacement"
+         }, 
+          "perdayrent" : {
+            "Price" : 120,
+         "Discount" : 15
+         },
+     "metrics" : {
+         "yoymaintenancecost" : 2800.00,
+         "depreciation": 2678.43,
+         "rentalcount" : {
+             "lastweek" : 4,
+             "yeartodate" : 254
+             }
+         }
+    },
+    {
+          "make":"Tesla",
+          "model":"A32",
+          "vin": "09AGHY64352JITEG98D",
+         "metadata" : {
+                "Color" : "Metallic Blue",
+                 "Notes" : "Front Mirror not working"
+         }, 
+          "perdayrent" : {
+            "Price" : 155,
+         "Discount" : 15
+         },
+     "metrics" : {
+         "yoymaintenancecost" : 3290.76,
+         "depreciation": 1256.43,
+         "rentalcount" : {
+             "lastweek" : 4,
+             "yeartodate" : 321
+             }
+         }
+    },
+    {
+          "make":"Hyundai",
+          "model":"S2",
+          "vin": "09AGHY64352JITEG98O",
+         "metadata" : {
+                "Color" : "Grey",
+                 "Notes" : "Car wheels replacement"
+         }, 
+          "perdayrent" : {
+            "Price" : 110,
+         "Discount" : 15
+         },
+     "metrics" : {
+         "yoymaintenancecost" : 2190.76,
+         "depreciation": 2556.43,
+         "rentalcount" : {
+             "lastweek" : 4,
+             "yeartodate" : 276
+             }
+         }
+    },
+    {
+          "make":"Tesla",
+          "model":"A2",
+          "vin": "09AGHY64352JITEG98H",
+         "metadata" : {
+                "Color" : "Royal Blue",
+                 "Notes" : "Scratches on the Seats"
+         }, 
+          "perdayrent" : {
+            "Price" : 130,
+         "Discount" : 15
+         },
+     "metrics" : {
+         "yoymaintenancecost" : 2690.76,
+         "depreciation": 2786.43,
+         "rentalcount" : {
+             "lastweek" : 4,
+             "yeartodate" : 289
+             }
+         }
+    }]
+    }
+         
+2020-08-15 00:03:22 INFO  RentalCarsTest 37 - get the status code of response200
+2020-08-15 00:03:22 INFO  RentalCarsTest 40 - Get the response body:{  
+
+ "Car":[{
+          "make":"Audi",
+          "model":"A7",
+          "vin": "09AGHY64352JITEG98K",
+         "metadata" : {
+                "Color" : "Black",
+                 "Notes" : "Scratches on the front side of the car"
+         }, 
+          "perdayrent" : {
+            "Price" : 140,
+         "Discount" : 15
+         },
+     "metrics" : {
+         "yoymaintenancecost" : 2190.76,
+         "depreciation": 2256.43,
+         "rentalcount" : {
+             "lastweek" : 4,
+             "yeartodate" : 221
+             }
+         }
+    },
+    
+     {
+          "make":"Tesla",
+          "model":"A6",
+          "vin": "09AGHY64352JITEG98A",
+         "metadata" : {
+                "Color" : "Blue",
+                 "Notes" : "oil changes required"
+         }, 
+          "perdayrent" : {
+            "Price" : 150,
+         "Discount" : 15
+         },
+     "metrics" : {
+         "yoymaintenancecost" : 3190.76,
+         "depreciation": 2156.43,
+         "rentalcount" : {
+             "lastweek" : 4,
+             "yeartodate" : 221
+             }
+         }
+    },
+    
+    {
+          "make":"Honda",
+          "model":"A11",
+          "vin": "09AGHY64352JITEG98R",
+         "metadata" : {
+                "Color" : "Brown",
+                 "Notes" : "Parts to replaced"
+         }, 
+          "perdayrent" : {
+            "Price" : 170,
+         "Discount" : 15
+         },
+     "metrics" : {
+         "yoymaintenancecost" : 3390.76,
+         "depreciation": 2756.43,
+         "rentalcount" : {
+             "lastweek" : 4,
+             "yeartodate" : 226
+             }
+         }
+    },
+    {
+          "make":"Audi",
+          "model":"A2",
+          "vin": "09AGHY64352JITEG98Y",
+         "metadata" : {
+                "Color" : "Red",
+                 "Notes" : "service required"
+         }, 
+          "perdayrent" : {
+            "Price" : 150,
+         "Discount" : 15
+         },
+     "metrics" : {
+         "yoymaintenancecost" : 3190.76,
+         "depreciation": 2056.43,
+         "rentalcount" : {
+             "lastweek" : 4,
+             "yeartodate" : 278
+             }
+         }
+    },
+    {
+          "make":"Tesla",
+          "model":"B4",
+          "vin": "09AGHY64352JITEG98K",
+         "metadata" : {
+                "Color" : "Blue",
+                 "Notes" : "Oil changes required"
+         }, 
+          "perdayrent" : {
+            "Price" : 120,
+         "Discount" : 15
+         },
+     "metrics" : {
+         "yoymaintenancecost" : 2900.76,
+         "depreciation": 2656.43,
+         "rentalcount" : {
+             "lastweek" : 4,
+             "yeartodate" : 218
+             }
+         }
+    },
+    {
+          "make":"Honda",
+          "model":"A22",
+          "vin": "09AGHY64352JITEG98T",
+         "metadata" : {
+                "Color" : "Green",
+                 "Notes" : "Break replacement"
+         }, 
+          "perdayrent" : {
+            "Price" : 120,
+         "Discount" : 15
+         },
+     "metrics" : {
+         "yoymaintenancecost" : 2800.00,
+         "depreciation": 2678.43,
+         "rentalcount" : {
+             "lastweek" : 4,
+             "yeartodate" : 254
+             }
+         }
+    },
+    {
+          "make":"Tesla",
+          "model":"A32",
+          "vin": "09AGHY64352JITEG98D",
+         "metadata" : {
+                "Color" : "Metallic Blue",
+                 "Notes" : "Front Mirror not working"
+         }, 
+          "perdayrent" : {
+            "Price" : 155,
+         "Discount" : 15
+         },
+     "metrics" : {
+         "yoymaintenancecost" : 3290.76,
+         "depreciation": 1256.43,
+         "rentalcount" : {
+             "lastweek" : 4,
+             "yeartodate" : 321
+             }
+         }
+    },
+    {
+          "make":"Hyundai",
+          "model":"S2",
+          "vin": "09AGHY64352JITEG98O",
+         "metadata" : {
+                "Color" : "Grey",
+                 "Notes" : "Car wheels replacement"
+         }, 
+          "perdayrent" : {
+            "Price" : 110,
+         "Discount" : 15
+         },
+     "metrics" : {
+         "yoymaintenancecost" : 2190.76,
+         "depreciation": 2556.43,
+         "rentalcount" : {
+             "lastweek" : 4,
+             "yeartodate" : 276
+             }
+         }
+    },
+    {
+          "make":"Tesla",
+          "model":"A2",
+          "vin": "09AGHY64352JITEG98H",
+         "metadata" : {
+                "Color" : "Royal Blue",
+                 "Notes" : "Scratches on the Seats"
+         }, 
+          "perdayrent" : {
+            "Price" : 130,
+         "Discount" : 15
+         },
+     "metrics" : {
+         "yoymaintenancecost" : 2690.76,
+         "depreciation": 2786.43,
+         "rentalcount" : {
+             "lastweek" : 4,
+             "yeartodate" : 289
+             }
+         }
+    }]
+    }
+         
+2020-08-15 00:03:22 INFO  RentalCarsTest 58 - Get the status code of response:200
+2020-08-15 00:03:22 INFO  RentalCarsTest 62 - Returns the list of all cars:[Audi, Tesla, Honda, Audi, Tesla, Honda, Tesla, Hyundai, Tesla]
+2020-08-15 00:03:22 INFO  RentalCarsTest 71 - printing the car make that equals: Tesla
+2020-08-15 00:03:22 INFO  RentalCarsTest 74 - printing only Teslaof color :Blue
+2020-08-15 00:03:22 INFO  RentalCarsTest 80 - printing only notes of BlueTesla :oil changes required
+2020-08-15 00:03:22 INFO  RentalCarsTest 71 - printing the car make that equals: Tesla
+2020-08-15 00:03:22 INFO  RentalCarsTest 74 - printing only Teslaof color :Blue
+2020-08-15 00:03:22 INFO  RentalCarsTest 80 - printing only notes of BlueTesla :Oil changes required
+2020-08-15 00:03:23 INFO  RentalCarsTest 130 - Get the status code of response:200
+2020-08-15 00:03:23 INFO  RentalCarsTest 134 - print perdayrental cost of all cars :[{Discount=15, Price=140}, {Discount=15, Price=150}, {Discount=15, Price=170}, {Discount=15, Price=150}, {Discount=15, Price=120}, {Discount=15, Price=120}, {Discount=15, Price=155}, {Discount=15, Price=110}, {Discount=15, Price=130}]
+2020-08-15 00:03:23 INFO  RentalCarsTest 150 - Returns all cars starting from lowest perdayrent with price only:
+2020-08-15 00:03:23 INFO  RentalCarsTest 157 - Vin : 09AGHY64352JITEG98O----------------> Price :110.0
+2020-08-15 00:03:23 INFO  RentalCarsTest 157 - Vin : 09AGHY64352JITEG98K----------------> Price :120.0
+2020-08-15 00:03:23 INFO  RentalCarsTest 157 - Vin : 09AGHY64352JITEG98T----------------> Price :120.0
+2020-08-15 00:03:23 INFO  RentalCarsTest 157 - Vin : 09AGHY64352JITEG98H----------------> Price :130.0
+2020-08-15 00:03:23 INFO  RentalCarsTest 157 - Vin : 09AGHY64352JITEG98K----------------> Price :140.0
+2020-08-15 00:03:23 INFO  RentalCarsTest 157 - Vin : 09AGHY64352JITEG98A----------------> Price :150.0
+2020-08-15 00:03:23 INFO  RentalCarsTest 157 - Vin : 09AGHY64352JITEG98Y----------------> Price :150.0
+2020-08-15 00:03:23 INFO  RentalCarsTest 157 - Vin : 09AGHY64352JITEG98D----------------> Price :155.0
+2020-08-15 00:03:23 INFO  RentalCarsTest 157 - Vin : 09AGHY64352JITEG98R----------------> Price :170.0
+2020-08-15 00:03:23 INFO  RentalCarsTest 162 - Returns all cars starting from lowest paydayrent with price after discount :
+2020-08-15 00:03:23 INFO  RentalCarsTest 171 - Vin: 09AGHY64352JITEG98O-------------------> PriceAfterDiscount: 93.5
+2020-08-15 00:03:23 INFO  RentalCarsTest 171 - Vin: 09AGHY64352JITEG98K-------------------> PriceAfterDiscount: 102.0
+2020-08-15 00:03:23 INFO  RentalCarsTest 171 - Vin: 09AGHY64352JITEG98T-------------------> PriceAfterDiscount: 102.0
+2020-08-15 00:03:23 INFO  RentalCarsTest 171 - Vin: 09AGHY64352JITEG98H-------------------> PriceAfterDiscount: 110.5
+2020-08-15 00:03:23 INFO  RentalCarsTest 171 - Vin: 09AGHY64352JITEG98K-------------------> PriceAfterDiscount: 119.0
+2020-08-15 00:03:23 INFO  RentalCarsTest 171 - Vin: 09AGHY64352JITEG98A-------------------> PriceAfterDiscount: 127.5
+2020-08-15 00:03:23 INFO  RentalCarsTest 171 - Vin: 09AGHY64352JITEG98Y-------------------> PriceAfterDiscount: 127.5
+2020-08-15 00:03:23 INFO  RentalCarsTest 171 - Vin: 09AGHY64352JITEG98D-------------------> PriceAfterDiscount: 131.75
+2020-08-15 00:03:23 INFO  RentalCarsTest 171 - Vin: 09AGHY64352JITEG98R-------------------> PriceAfterDiscount: 144.5
+2020-08-15 00:03:23 INFO  RentalCarsTest 190 - Get the status code of response:200
+2020-08-15 00:03:23 INFO  RentalCarsTest 198 - Returns each car with year to year maintainacecost plus depreciation:[{yoymaintenancecost=2190.76, rentalcount={lastweek=4, yeartodate=221}, depreciation=2256.43}, {yoymaintenancecost=3190.76, rentalcount={lastweek=4, yeartodate=221}, depreciation=2156.43}, {yoymaintenancecost=3390.76, rentalcount={lastweek=4, yeartodate=226}, depreciation=2756.43}, {yoymaintenancecost=3190.76, rentalcount={lastweek=4, yeartodate=278}, depreciation=2056.43}, {yoymaintenancecost=2900.76, rentalcount={lastweek=4, yeartodate=218}, depreciation=2656.43}, {yoymaintenancecost=2800.0, rentalcount={lastweek=4, yeartodate=254}, depreciation=2678.43}, {yoymaintenancecost=3290.76, rentalcount={lastweek=4, yeartodate=321}, depreciation=1256.43}, {yoymaintenancecost=2190.76, rentalcount={lastweek=4, yeartodate=276}, depreciation=2556.43}, {yoymaintenancecost=2690.76, rentalcount={lastweek=4, yeartodate=289}, depreciation=2786.43}]
+2020-08-15 00:03:24 INFO  RentalCarsTest 220 - Highest Revenue
+2020-08-15 00:03:24 INFO  RentalCarsTest 226 - Vin: 09AGHY64352JITEG98D--------------------->CarREvenue:  37744.56
+2020-08-15 00:03:24 INFO  RentalCarsTest 226 - Vin: 09AGHY64352JITEG98Y--------------------->CarREvenue:  30197.81
+2020-08-15 00:03:24 INFO  RentalCarsTest 226 - Vin: 09AGHY64352JITEG98R--------------------->CarREvenue:  26509.81
+2020-08-15 00:03:24 INFO  RentalCarsTest 226 - Vin: 09AGHY64352JITEG98H--------------------->CarREvenue:  26457.31
+2020-08-15 00:03:24 INFO  RentalCarsTest 226 - Vin: 09AGHY64352JITEG98A--------------------->CarREvenue:  22830.31
+2020-08-15 00:03:24 INFO  RentalCarsTest 226 - Vin: 09AGHY64352JITEG98K--------------------->CarREvenue:  21851.81
+2020-08-15 00:03:24 INFO  RentalCarsTest 226 - Vin: 09AGHY64352JITEG98O--------------------->CarREvenue:  21058.81
+2020-08-15 00:03:24 INFO  RentalCarsTest 226 - Vin: 09AGHY64352JITEG98T--------------------->CarREvenue:  20429.57
+2020-08-15 00:03:24 INFO  RentalCarsTest 226 - Vin: 09AGHY64352JITEG98K--------------------->CarREvenue:  16678.81
+2020-08-19 09:17:38 INFO  RentalCarsTest 35 - Get the response body after parsing as string:{  
+
+ "Car":[{
+          "make":"Audi",
+          "model":"A7",
+          "vin": "09AGHY64352JITEG98K",
+         "metadata" : {
+                "Color" : "Black",
+                 "Notes" : "Scratches on the front side of the car"
+         }, 
+          "perdayrent" : {
+            "Price" : 140,
+         "Discount" : 15
+         },
+     "metrics" : {
+         "yoymaintenancecost" : 2190.76,
+         "depreciation": 2256.43,
+         "rentalcount" : {
+             "lastweek" : 4,
+             "yeartodate" : 221
+             }
+         }
+    },
+    
+     {
+          "make":"Tesla",
+          "model":"A6",
+          "vin": "09AGHY64352JITEG98A",
+         "metadata" : {
+                "Color" : "Blue",
+                 "Notes" : "oil changes required"
+         }, 
+          "perdayrent" : {
+            "Price" : 150,
+         "Discount" : 15
+         },
+     "metrics" : {
+         "yoymaintenancecost" : 3190.76,
+         "depreciation": 2156.43,
+         "rentalcount" : {
+             "lastweek" : 4,
+             "yeartodate" : 221
+             }
+         }
+    },
+    
+    {
+          "make":"Honda",
+          "model":"A11",
+          "vin": "09AGHY64352JITEG98R",
+         "metadata" : {
+                "Color" : "Brown",
+                 "Notes" : "Parts to replaced"
+         }, 
+          "perdayrent" : {
+            "Price" : 170,
+         "Discount" : 15
+         },
+     "metrics" : {
+         "yoymaintenancecost" : 3390.76,
+         "depreciation": 2756.43,
+         "rentalcount" : {
+             "lastweek" : 4,
+             "yeartodate" : 226
+             }
+         }
+    },
+    {
+          "make":"Audi",
+          "model":"A2",
+          "vin": "09AGHY64352JITEG98Y",
+         "metadata" : {
+                "Color" : "Red",
+                 "Notes" : "service required"
+         }, 
+          "perdayrent" : {
+            "Price" : 150,
+         "Discount" : 15
+         },
+     "metrics" : {
+         "yoymaintenancecost" : 3190.76,
+         "depreciation": 2056.43,
+         "rentalcount" : {
+             "lastweek" : 4,
+             "yeartodate" : 278
+             }
+         }
+    },
+    {
+          "make":"Tesla",
+          "model":"B4",
+          "vin": "09AGHY64352JITEG98K",
+         "metadata" : {
+                "Color" : "Blue",
+                 "Notes" : "Oil changes required"
+         }, 
+          "perdayrent" : {
+            "Price" : 120,
+         "Discount" : 15
+         },
+     "metrics" : {
+         "yoymaintenancecost" : 2900.76,
+         "depreciation": 2656.43,
+         "rentalcount" : {
+             "lastweek" : 4,
+             "yeartodate" : 218
+             }
+         }
+    },
+    {
+          "make":"Honda",
+          "model":"A22",
+          "vin": "09AGHY64352JITEG98T",
+         "metadata" : {
+                "Color" : "Green",
+                 "Notes" : "Break replacement"
+         }, 
+          "perdayrent" : {
+            "Price" : 120,
+         "Discount" : 15
+         },
+     "metrics" : {
+         "yoymaintenancecost" : 2800.00,
+         "depreciation": 2678.43,
+         "rentalcount" : {
+             "lastweek" : 4,
+             "yeartodate" : 254
+             }
+         }
+    },
+    {
+          "make":"Tesla",
+          "model":"A32",
+          "vin": "09AGHY64352JITEG98D",
+         "metadata" : {
+                "Color" : "Metallic Blue",
+                 "Notes" : "Front Mirror not working"
+         }, 
+          "perdayrent" : {
+            "Price" : 155,
+         "Discount" : 15
+         },
+     "metrics" : {
+         "yoymaintenancecost" : 3290.76,
+         "depreciation": 1256.43,
+         "rentalcount" : {
+             "lastweek" : 4,
+             "yeartodate" : 321
+             }
+         }
+    },
+    {
+          "make":"Hyundai",
+          "model":"S2",
+          "vin": "09AGHY64352JITEG98O",
+         "metadata" : {
+                "Color" : "Grey",
+                 "Notes" : "Car wheels replacement"
+         }, 
+          "perdayrent" : {
+            "Price" : 110,
+         "Discount" : 15
+         },
+     "metrics" : {
+         "yoymaintenancecost" : 2190.76,
+         "depreciation": 2556.43,
+         "rentalcount" : {
+             "lastweek" : 4,
+             "yeartodate" : 276
+             }
+         }
+    },
+    {
+          "make":"Tesla",
+          "model":"A2",
+          "vin": "09AGHY64352JITEG98H",
+         "metadata" : {
+                "Color" : "Royal Blue",
+                 "Notes" : "Scratches on the Seats"
+         }, 
+          "perdayrent" : {
+            "Price" : 130,
+         "Discount" : 15
+         },
+     "metrics" : {
+         "yoymaintenancecost" : 2690.76,
+         "depreciation": 2786.43,
+         "rentalcount" : {
+             "lastweek" : 4,
+             "yeartodate" : 289
+             }
+         }
+    }]
+    }
+         
+2020-08-19 09:17:38 INFO  RentalCarsTest 37 - get the status code of response200
+2020-08-19 09:17:38 INFO  RentalCarsTest 40 - Get the response body:{  
+
+ "Car":[{
+          "make":"Audi",
+          "model":"A7",
+          "vin": "09AGHY64352JITEG98K",
+         "metadata" : {
+                "Color" : "Black",
+                 "Notes" : "Scratches on the front side of the car"
+         }, 
+          "perdayrent" : {
+            "Price" : 140,
+         "Discount" : 15
+         },
+     "metrics" : {
+         "yoymaintenancecost" : 2190.76,
+         "depreciation": 2256.43,
+         "rentalcount" : {
+             "lastweek" : 4,
+             "yeartodate" : 221
+             }
+         }
+    },
+    
+     {
+          "make":"Tesla",
+          "model":"A6",
+          "vin": "09AGHY64352JITEG98A",
+         "metadata" : {
+                "Color" : "Blue",
+                 "Notes" : "oil changes required"
+         }, 
+          "perdayrent" : {
+            "Price" : 150,
+         "Discount" : 15
+         },
+     "metrics" : {
+         "yoymaintenancecost" : 3190.76,
+         "depreciation": 2156.43,
+         "rentalcount" : {
+             "lastweek" : 4,
+             "yeartodate" : 221
+             }
+         }
+    },
+    
+    {
+          "make":"Honda",
+          "model":"A11",
+          "vin": "09AGHY64352JITEG98R",
+         "metadata" : {
+                "Color" : "Brown",
+                 "Notes" : "Parts to replaced"
+         }, 
+          "perdayrent" : {
+            "Price" : 170,
+         "Discount" : 15
+         },
+     "metrics" : {
+         "yoymaintenancecost" : 3390.76,
+         "depreciation": 2756.43,
+         "rentalcount" : {
+             "lastweek" : 4,
+             "yeartodate" : 226
+             }
+         }
+    },
+    {
+          "make":"Audi",
+          "model":"A2",
+          "vin": "09AGHY64352JITEG98Y",
+         "metadata" : {
+                "Color" : "Red",
+                 "Notes" : "service required"
+         }, 
+          "perdayrent" : {
+            "Price" : 150,
+         "Discount" : 15
+         },
+     "metrics" : {
+         "yoymaintenancecost" : 3190.76,
+         "depreciation": 2056.43,
+         "rentalcount" : {
+             "lastweek" : 4,
+             "yeartodate" : 278
+             }
+         }
+    },
+    {
+          "make":"Tesla",
+          "model":"B4",
+          "vin": "09AGHY64352JITEG98K",
+         "metadata" : {
+                "Color" : "Blue",
+                 "Notes" : "Oil changes required"
+         }, 
+          "perdayrent" : {
+            "Price" : 120,
+         "Discount" : 15
+         },
+     "metrics" : {
+         "yoymaintenancecost" : 2900.76,
+         "depreciation": 2656.43,
+         "rentalcount" : {
+             "lastweek" : 4,
+             "yeartodate" : 218
+             }
+         }
+    },
+    {
+          "make":"Honda",
+          "model":"A22",
+          "vin": "09AGHY64352JITEG98T",
+         "metadata" : {
+                "Color" : "Green",
+                 "Notes" : "Break replacement"
+         }, 
+          "perdayrent" : {
+            "Price" : 120,
+         "Discount" : 15
+         },
+     "metrics" : {
+         "yoymaintenancecost" : 2800.00,
+         "depreciation": 2678.43,
+         "rentalcount" : {
+             "lastweek" : 4,
+             "yeartodate" : 254
+             }
+         }
+    },
+    {
+          "make":"Tesla",
+          "model":"A32",
+          "vin": "09AGHY64352JITEG98D",
+         "metadata" : {
+                "Color" : "Metallic Blue",
+                 "Notes" : "Front Mirror not working"
+         }, 
+          "perdayrent" : {
+            "Price" : 155,
+         "Discount" : 15
+         },
+     "metrics" : {
+         "yoymaintenancecost" : 3290.76,
+         "depreciation": 1256.43,
+         "rentalcount" : {
+             "lastweek" : 4,
+             "yeartodate" : 321
+             }
+         }
+    },
+    {
+          "make":"Hyundai",
+          "model":"S2",
+          "vin": "09AGHY64352JITEG98O",
+         "metadata" : {
+                "Color" : "Grey",
+                 "Notes" : "Car wheels replacement"
+         }, 
+          "perdayrent" : {
+            "Price" : 110,
+         "Discount" : 15
+         },
+     "metrics" : {
+         "yoymaintenancecost" : 2190.76,
+         "depreciation": 2556.43,
+         "rentalcount" : {
+             "lastweek" : 4,
+             "yeartodate" : 276
+             }
+         }
+    },
+    {
+          "make":"Tesla",
+          "model":"A2",
+          "vin": "09AGHY64352JITEG98H",
+         "metadata" : {
+                "Color" : "Royal Blue",
+                 "Notes" : "Scratches on the Seats"
+         }, 
+          "perdayrent" : {
+            "Price" : 130,
+         "Discount" : 15
+         },
+     "metrics" : {
+         "yoymaintenancecost" : 2690.76,
+         "depreciation": 2786.43,
+         "rentalcount" : {
+             "lastweek" : 4,
+             "yeartodate" : 289
+             }
+         }
+    }]
+    }
+         
+2020-08-19 09:17:38 INFO  RentalCarsTest 58 - Get the status code of response:200
+2020-08-19 09:17:39 INFO  RentalCarsTest 62 - Returns the list of all cars:[Audi, Tesla, Honda, Audi, Tesla, Honda, Tesla, Hyundai, Tesla]
+2020-08-19 09:17:39 INFO  RentalCarsTest 71 - printing the car make that equals: Tesla
+2020-08-19 09:17:39 INFO  RentalCarsTest 74 - printing only Teslaof color :Blue
+2020-08-19 09:17:39 INFO  RentalCarsTest 80 - printing only notes of BlueTesla :oil changes required
+2020-08-19 09:17:39 INFO  RentalCarsTest 71 - printing the car make that equals: Tesla
+2020-08-19 09:17:39 INFO  RentalCarsTest 74 - printing only Teslaof color :Blue
+2020-08-19 09:17:39 INFO  RentalCarsTest 80 - printing only notes of BlueTesla :Oil changes required
+2020-08-19 09:17:39 INFO  RentalCarsTest 130 - Get the status code of response:200
+2020-08-19 09:17:39 INFO  RentalCarsTest 134 - print perdayrental cost of all cars :[{Discount=15, Price=140}, {Discount=15, Price=150}, {Discount=15, Price=170}, {Discount=15, Price=150}, {Discount=15, Price=120}, {Discount=15, Price=120}, {Discount=15, Price=155}, {Discount=15, Price=110}, {Discount=15, Price=130}]
+2020-08-19 09:17:39 INFO  RentalCarsTest 150 - Returns all cars starting from lowest perdayrent with price only:
+2020-08-19 09:17:39 INFO  RentalCarsTest 157 - Vin : 09AGHY64352JITEG98O----------------> Price :110.0
+2020-08-19 09:17:39 INFO  RentalCarsTest 157 - Vin : 09AGHY64352JITEG98K----------------> Price :120.0
+2020-08-19 09:17:39 INFO  RentalCarsTest 157 - Vin : 09AGHY64352JITEG98T----------------> Price :120.0
+2020-08-19 09:17:39 INFO  RentalCarsTest 157 - Vin : 09AGHY64352JITEG98H----------------> Price :130.0
+2020-08-19 09:17:39 INFO  RentalCarsTest 157 - Vin : 09AGHY64352JITEG98K----------------> Price :140.0
+2020-08-19 09:17:39 INFO  RentalCarsTest 157 - Vin : 09AGHY64352JITEG98A----------------> Price :150.0
+2020-08-19 09:17:39 INFO  RentalCarsTest 157 - Vin : 09AGHY64352JITEG98Y----------------> Price :150.0
+2020-08-19 09:17:39 INFO  RentalCarsTest 157 - Vin : 09AGHY64352JITEG98D----------------> Price :155.0
+2020-08-19 09:17:39 INFO  RentalCarsTest 157 - Vin : 09AGHY64352JITEG98R----------------> Price :170.0
+2020-08-19 09:17:39 INFO  RentalCarsTest 162 - Returns all cars starting from lowest paydayrent with price after discount :
+2020-08-19 09:17:39 INFO  RentalCarsTest 171 - Vin: 09AGHY64352JITEG98O-------------------> PriceAfterDiscount: 93.5
+2020-08-19 09:17:39 INFO  RentalCarsTest 171 - Vin: 09AGHY64352JITEG98K-------------------> PriceAfterDiscount: 102.0
+2020-08-19 09:17:39 INFO  RentalCarsTest 171 - Vin: 09AGHY64352JITEG98T-------------------> PriceAfterDiscount: 102.0
+2020-08-19 09:17:39 INFO  RentalCarsTest 171 - Vin: 09AGHY64352JITEG98H-------------------> PriceAfterDiscount: 110.5
+2020-08-19 09:17:39 INFO  RentalCarsTest 171 - Vin: 09AGHY64352JITEG98K-------------------> PriceAfterDiscount: 119.0
+2020-08-19 09:17:39 INFO  RentalCarsTest 171 - Vin: 09AGHY64352JITEG98A-------------------> PriceAfterDiscount: 127.5
+2020-08-19 09:17:39 INFO  RentalCarsTest 171 - Vin: 09AGHY64352JITEG98Y-------------------> PriceAfterDiscount: 127.5
+2020-08-19 09:17:39 INFO  RentalCarsTest 171 - Vin: 09AGHY64352JITEG98D-------------------> PriceAfterDiscount: 131.75
+2020-08-19 09:17:39 INFO  RentalCarsTest 171 - Vin: 09AGHY64352JITEG98R-------------------> PriceAfterDiscount: 144.5
+2020-08-19 09:17:39 INFO  RentalCarsTest 190 - Get the status code of response:200
+2020-08-19 09:17:39 INFO  RentalCarsTest 198 - Returns each car with year to year maintainacecost plus depreciation:[{yoymaintenancecost=2190.76, rentalcount={lastweek=4, yeartodate=221}, depreciation=2256.43}, {yoymaintenancecost=3190.76, rentalcount={lastweek=4, yeartodate=221}, depreciation=2156.43}, {yoymaintenancecost=3390.76, rentalcount={lastweek=4, yeartodate=226}, depreciation=2756.43}, {yoymaintenancecost=3190.76, rentalcount={lastweek=4, yeartodate=278}, depreciation=2056.43}, {yoymaintenancecost=2900.76, rentalcount={lastweek=4, yeartodate=218}, depreciation=2656.43}, {yoymaintenancecost=2800.0, rentalcount={lastweek=4, yeartodate=254}, depreciation=2678.43}, {yoymaintenancecost=3290.76, rentalcount={lastweek=4, yeartodate=321}, depreciation=1256.43}, {yoymaintenancecost=2190.76, rentalcount={lastweek=4, yeartodate=276}, depreciation=2556.43}, {yoymaintenancecost=2690.76, rentalcount={lastweek=4, yeartodate=289}, depreciation=2786.43}]
+2020-08-19 09:17:40 INFO  RentalCarsTest 220 - Highest Revenue
+2020-08-19 09:17:40 INFO  RentalCarsTest 226 - Vin: 09AGHY64352JITEG98D--------------------->CarREvenue:  37744.56
+2020-08-19 09:17:40 INFO  RentalCarsTest 226 - Vin: 09AGHY64352JITEG98Y--------------------->CarREvenue:  30197.81
+2020-08-19 09:17:40 INFO  RentalCarsTest 226 - Vin: 09AGHY64352JITEG98R--------------------->CarREvenue:  26509.81
+2020-08-19 09:17:40 INFO  RentalCarsTest 226 - Vin: 09AGHY64352JITEG98H--------------------->CarREvenue:  26457.31
+2020-08-19 09:17:40 INFO  RentalCarsTest 226 - Vin: 09AGHY64352JITEG98A--------------------->CarREvenue:  22830.31
+2020-08-19 09:17:40 INFO  RentalCarsTest 226 - Vin: 09AGHY64352JITEG98K--------------------->CarREvenue:  21851.81
+2020-08-19 09:17:40 INFO  RentalCarsTest 226 - Vin: 09AGHY64352JITEG98O--------------------->CarREvenue:  21058.81
+2020-08-19 09:17:40 INFO  RentalCarsTest 226 - Vin: 09AGHY64352JITEG98T--------------------->CarREvenue:  20429.57
+2020-08-19 09:17:40 INFO  RentalCarsTest 226 - Vin: 09AGHY64352JITEG98K--------------------->CarREvenue:  16678.81
